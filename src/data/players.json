@@ -1,0 +1,47 @@
+[
+  {
+    "id": "player-001",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp",
+    "nickname": "Adam",
+    "firstName": "Adam",
+    "lastName": "Maanane",
+    "country": "France",
+    "countryCode": "FR",
+    "role": "Toplaner",
+    "status": "Former",
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-002",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp",
+    "nickname": "Saken",
+    "firstName": "Lucas",
+    "lastName": "Fayard",
+    "country": "France",
+    "countryCode": "FR",
+    "role": "Midlaner",
+    "status": "Active",
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-003",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp",
+    "nickname": "Targamas",
+    "firstName": "Raphaël",
+    "lastName": "Crabbé",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "role": "Support",
+    "status": "Former",
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  }
+]

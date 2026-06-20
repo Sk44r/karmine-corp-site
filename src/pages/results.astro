@@ -1,0 +1,155 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import results from "../data/results.json";
+
+const sortedResults = [...results].sort(
+  (a, b) => new Date(b.date) - new Date(a.date)
+);
+---
+
+<BaseLayout title="Résultats | KC Titles">
+  <section class="page-header">
+    <p class="eyebrow">Historique complet</p>
+    <h1>Tous les résultats</h1>
+    <p>
+      Liste complète des résultats renseignés dans la base de données.
+    </p>
+  </section>
+
+  <section class="stats">
+    <div>
+      <strong>{sortedResults.length}</strong>
+      <span>résultats au total</span>
+    </div>
+  </section>
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Jeu</th>
+          <th>Équipe</th>
+          <th>Résultat</th>
+          <th>Place</th>
+          <th>Compétition</th>
+          <th>Joueurs</th>
+          <th>Source</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {sortedResults.map((result) => (
+          <tr>
+            <td>{result.date}</td>
+            <td>{result.game}</td>
+            <td>{result.teamName}</td>
+            <td>{result.resultTitle}</td>
+            <td>{result.placementLabel}</td>
+            <td>{result.competition}</td>
+            <td>{result.players.join(", ")}</td>
+            <td>
+              {result.sourceUrl ? (
+                <a href={result.sourceUrl} target="_blank" rel="noreferrer">
+                  Source
+                </a>
+              ) : (
+                <span class="empty">—</span>
+              )}
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</BaseLayout>
+
+<style>
+  .page-header {
+    margin-bottom: 32px;
+  }
+
+  .eyebrow {
+    color: #60a5fa;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin: 12px 0;
+  }
+
+  .page-header p {
+    max-width: 700px;
+    color: #cbd5e1;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .stats {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .stats div {
+    padding: 18px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .stats strong {
+    display: block;
+    font-size: 32px;
+  }
+
+  .stats span {
+    color: #cbd5e1;
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  table {
+    width: 100%;
+    min-width: 1100px;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  th,
+  td {
+    padding: 14px 16px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    vertical-align: top;
+  }
+
+  th {
+    color: #93c5fd;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+
+  td {
+    color: #e5e7eb;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  a {
+    color: #93c5fd;
+  }
+
+  .empty {
+    color: #64748b;
+  }
+</style>

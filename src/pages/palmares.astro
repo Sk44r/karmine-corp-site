@@ -1,0 +1,156 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import results from "../data/results.json";
+
+const trophies = results
+  .filter((result) => result.showInTrophyCabinet)
+  .sort((a, b) => new Date(b.date) - new Date(a.date));
+---
+
+<BaseLayout title="Palmarès | KC Titles">
+  <section class="page-header">
+    <p class="eyebrow">Armoire à trophées</p>
+    <h1>Palmarès majeur</h1>
+    <p>
+      Les titres et podiums sélectionnés pour apparaître dans l’armoire à trophées virtuelle.
+    </p>
+  </section>
+
+  <section class="stats">
+    <div>
+      <strong>{trophies.length}</strong>
+      <span>résultats affichés</span>
+    </div>
+  </section>
+
+  <section class="trophy-grid">
+    {trophies.map((result) => (
+      <article class="trophy-card">
+        <div class="topline">
+          <span class="placement">{result.placementLabel}</span>
+          <span class="game">{result.game}</span>
+        </div>
+
+        <h2>{result.resultTitle}</h2>
+
+        <p class="competition">{result.competition}</p>
+        <p class="date">{result.date}</p>
+
+        {result.players.length > 0 && (
+          <p class="players">
+            {result.players.join(", ")}
+          </p>
+        )}
+
+        {result.sourceUrl && (
+          <a href={result.sourceUrl} target="_blank" rel="noreferrer">
+            Voir la source
+          </a>
+        )}
+      </article>
+    ))}
+  </section>
+</BaseLayout>
+
+<style>
+  .page-header {
+    margin-bottom: 32px;
+  }
+
+  .eyebrow {
+    color: #60a5fa;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin: 12px 0;
+  }
+
+  .page-header p {
+    max-width: 700px;
+    color: #cbd5e1;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .stats {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .stats div {
+    padding: 18px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .stats strong {
+    display: block;
+    font-size: 32px;
+  }
+
+  .stats span {
+    color: #cbd5e1;
+  }
+
+  .trophy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 18px;
+  }
+
+  .trophy-card {
+    padding: 24px;
+    border-radius: 18px;
+    background: rgba(37, 99, 235, 0.16);
+    border: 1px solid rgba(96, 165, 250, 0.3);
+  }
+
+  .topline {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .placement {
+    padding: 6px 10px;
+    background: #2563eb;
+    border-radius: 999px;
+    font-weight: bold;
+  }
+
+  .game {
+    color: #bfdbfe;
+    font-size: 14px;
+  }
+
+  h2 {
+    margin: 0 0 12px;
+    font-size: 22px;
+  }
+
+  .competition,
+  .date,
+  .players {
+    color: #cbd5e1;
+  }
+
+  .players {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  a {
+    display: inline-block;
+    margin-top: 12px;
+    color: #93c5fd;
+  }
+</style>

@@ -9,9 +9,11 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "convert:data": "node scripts/convert-data.mjs"
+
   },
   "dependencies": {
-    "astro": "^6.4.7"
+    "astro": "^6.4.7",
+    "csv-parse": "^7.0.0"
   }
 }

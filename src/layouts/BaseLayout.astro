@@ -1,0 +1,101 @@
+---
+const { title = "Karmine Corp Titles" } = Astro.props;
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Palmarès et résultats esportifs de la Karmine Corp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a href="/" class="logo">KC Titles</a>
+
+      <nav>
+        <a href="/">Accueil</a>
+        <a href="/palmares">Palmarès</a>
+        <a href="/results">Résultats</a>
+        <a href="/players">Joueurs</a>
+      </nav>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <p>Site non officiel — Projet vitrine esport</p>
+    </footer>
+  </body>
+</html>
+
+<style>
+  :global(*) {
+    box-sizing: border-box;
+  }
+
+  :global(body) {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #070b18;
+    color: #f5f7fb;
+  }
+
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 48px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .logo {
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+  }
+
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  nav a {
+    color: #c7d2fe;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: white;
+  }
+
+  main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 48px 24px;
+  }
+
+  .site-footer {
+    padding: 32px;
+    text-align: center;
+    color: #9ca3af;
+  }
+
+  @media (max-width: 700px) {
+    .site-header {
+      flex-direction: column;
+      gap: 16px;
+      padding: 24px;
+    }
+
+    nav {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+</style>

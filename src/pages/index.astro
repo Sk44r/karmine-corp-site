@@ -1,17 +1,184 @@
 ---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import results from "../data/results.json";
+import players from "../data/players.json";
 
+const latestResults = [...results]
+  .sort((a, b) => new Date(b.date) - new Date(a.date))
+  .slice(0, 3);
+
+const trophyResults = results
+  .filter((result) => result.showInTrophyCabinet)
+  .slice(0, 3);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="Accueil | KC Titles">
+  <section class="hero">
+    <p class="eyebrow">Palmarès esportif</p>
+    <h1>Karmine Corp Titles</h1>
+
+    <p>
+      Site vitrine non officiel pour afficher les titres, podiums, résultats
+      et joueurs de la structure.
+    </p>
+
+    <div class="stats">
+      <div>
+        <strong>{results.length}</strong>
+        <span>résultats renseignés</span>
+      </div>
+
+      <div>
+        <strong>{trophyResults.length}</strong>
+        <span>trophées affichés</span>
+      </div>
+
+      <div>
+        <strong>{players.length}</strong>
+        <span>joueurs renseignés</span>
+      </div>
+    </div>
+
+    <div class="actions">
+      <a href="/palmares">Voir le palmarès</a>
+      <a href="/results">Tous les résultats</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Derniers résultats</h2>
+
+    <div class="grid">
+      {latestResults.map((result) => (
+        <article class="card">
+          <h3>{result.resultTitle}</h3>
+          <p>{result.game} — {result.competition}</p>
+          <p>{result.placementLabel} — {result.date}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section>
+    <h2>Trophées mis en avant</h2>
+
+    <div class="grid">
+      {trophyResults.map((result) => (
+        <article class="card trophy">
+          <h3>{result.resultTitle}</h3>
+          <p>{result.game} — {result.competition}</p>
+          <p>{result.placementLabel} — {result.date}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding: 64px 0;
+  }
+
+  .eyebrow {
+    color: #60a5fa;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 56px;
+    margin: 12px 0;
+  }
+
+  h2 {
+    margin-top: 56px;
+  }
+
+  .hero p {
+    max-width: 650px;
+    color: #cbd5e1;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .stats {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin: 32px 0;
+  }
+
+  .stats div {
+    min-width: 180px;
+    padding: 18px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .stats strong {
+    display: block;
+    font-size: 32px;
+  }
+
+  .stats span {
+    color: #cbd5e1;
+  }
+
+  .actions {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  .actions a {
+    padding: 12px 18px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+
+  .actions a:last-child {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+  }
+
+  .card {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 20px;
+    border-radius: 16px;
+  }
+
+  .card h3 {
+    margin-top: 0;
+  }
+
+  .card p {
+    color: #cbd5e1;
+  }
+
+  .trophy {
+    background: rgba(37, 99, 235, 0.18);
+  }
+
+  @media (max-width: 700px) {
+    h1 {
+      font-size: 40px;
+    }
+
+    .actions {
+      flex-direction: column;
+    }
+  }
+</style>

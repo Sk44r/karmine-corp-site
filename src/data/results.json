@@ -1,0 +1,1887 @@
+[
+  {
+    "id": "result-001",
+    "game": "League of Legends",
+    "teamName": "Kameto Corp",
+    "resultTitle": "Top 3 - LFL Division 2 2020",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3",
+    "placementMin": 3,
+    "placementMax": 3,
+    "date": "2020-07-26",
+    "players": [
+      "Wylenz",
+      "Adam",
+      "Akabane",
+      "Eyhro",
+      "Nuclearint",
+      "Jujutw0",
+      "Helaz",
+      "Farrhell",
+      "Rejakar",
+      "Galdix"
+    ],
+    "competition": "LFL Division 2",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-002",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp",
+    "resultTitle": "EU Masters Spring 2021",
+    "showInTrophyCabinet": true,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2021-05-02",
+    "players": [
+      "Adam",
+      "Cinkrof",
+      "Saken",
+      "xMatty",
+      "Targamas"
+    ],
+    "competition": "European Masters",
+    "sourceUrl": "https://www.team-aaa.com/fr/actualite/gagne-les-european-masters-spring-split-2021_120327",
+    "notes": ""
+  },
+  {
+    "id": "result-003",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp",
+    "resultTitle": "EU Masters Summer 2021",
+    "showInTrophyCabinet": true,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2021-09-19",
+    "players": [
+      "Cabochard",
+      "Cinkrof",
+      "Saken",
+      "xMatty",
+      "Targamas"
+    ],
+    "competition": "European Masters",
+    "sourceUrl": "https://www.team-aaa.com/fr/actualite/la-karmine-corp-remporte-les-european-masters-summer-split-2021_121456",
+    "notes": ""
+  },
+  {
+    "id": "result-004",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp",
+    "resultTitle": "EU Masters Spring 2022",
+    "showInTrophyCabinet": true,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2022-05-08",
+    "players": [
+      "Cabochard",
+      "113",
+      "Saken",
+      "Rekkles",
+      "Hantera"
+    ],
+    "competition": "European Masters",
+    "sourceUrl": "https://www.team-aaa.com/fr/actualite/la-karmine-corp-remporte-les-european-masters-spring-split-2022_123789",
+    "notes": ""
+  },
+  {
+    "id": "result-005",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp",
+    "resultTitle": "LFL Spring Split 2021",
+    "showInTrophyCabinet": true,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2021-03-27",
+    "players": [
+      "Adam",
+      "Cinkrof",
+      "Saken",
+      "xMatty",
+      "Targamas"
+    ],
+    "competition": "LFL",
+    "sourceUrl": "https://www.team-aaa.com/fr/actualite/la-karmine-corp-remporte-le-spring-split-de-la-lfl-2021_120123",
+    "notes": ""
+  },
+  {
+    "id": "result-006",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp",
+    "resultTitle": "LFL Summer Split 2023",
+    "showInTrophyCabinet": true,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2023-08-12",
+    "players": [
+      "Cabochard",
+      "Sheo",
+      "Saken",
+      "Caliste",
+      "Targamas"
+    ],
+    "competition": "LFL",
+    "sourceUrl": "https://www.team-aaa.com/fr/actualite/la-karmine-corp-remporte-le-summer-split-de-la-lfl-2023_127890",
+    "notes": ""
+  },
+  {
+    "id": "result-007",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp Blue",
+    "resultTitle": "LFL Winter Split 2025",
+    "showInTrophyCabinet": true,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2025-03-05",
+    "players": [
+      "Maynter",
+      "Yukino",
+      "SlowQ",
+      "3XA",
+      "Piero"
+    ],
+    "competition": "LFL",
+    "sourceUrl": "https://escharts.com/news/lfl-winter-2025-season-viewership",
+    "notes": ""
+  },
+  {
+    "id": "result-008",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp",
+    "resultTitle": "LEC Winter Split 2025",
+    "showInTrophyCabinet": true,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2025-03-02",
+    "players": [
+      "Canna",
+      "Yike",
+      "Vladi",
+      "Caliste",
+      "Targa"
+    ],
+    "competition": "LEC",
+    "sourceUrl": "https://www.lemonde.fr/pixels/article/2025/03/03/e-sport-la-karmine-corp-sacree-championne-d-europe-de-league-of-legends_6574812_4408996.html",
+    "notes": ""
+  },
+  {
+    "id": "result-009",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Finalist - EU Masters Summer 2022",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2022-09-25",
+    "players": [
+      "Cabochard",
+      "113",
+      "Saken",
+      "Rekkles",
+      "Hantera"
+    ],
+    "competition": "European Masters",
+    "sourceUrl": "https://www.team-aaa.com/fr/actualite/la-karmine-corp-s-incline-en-finale-des-european-masters-face-a-team-heretics_124271",
+    "notes": ""
+  },
+  {
+    "id": "result-010",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp",
+    "resultTitle": "EU Masters Summer 2023",
+    "showInTrophyCabinet": true,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2023-09-08",
+    "players": [
+      "Cabochard",
+      "Cinkrof",
+      "Saken",
+      "Caliste",
+      "Targamas",
+      "Reha"
+    ],
+    "competition": "European Masters",
+    "sourceUrl": "https://www.team-aaa.com/fr/actualite/european-masters-summer-2023-les-resultats_127790",
+    "notes": ""
+  },
+  {
+    "id": "result-011",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp",
+    "resultTitle": "LEC 2025 Winter 2025",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2025-02-03",
+    "players": [
+      "Canna",
+      "Yike",
+      "Vladi",
+      "Caliste",
+      "Targamas",
+      "Reha",
+      "Apples",
+      "Wadi"
+    ],
+    "competition": "LEC",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-012",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp",
+    "resultTitle": "LEC 2025 Winter 2025 Playoffs",
+    "showInTrophyCabinet": true,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2025-03-02",
+    "players": [
+      "Canna",
+      "Yike",
+      "Vladi",
+      "Caliste",
+      "Targamas",
+      "Reha",
+      "Apples",
+      "Wadi"
+    ],
+    "competition": "LEC",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-013",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Finalist - First Stand 2025",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2025-03-16",
+    "players": [
+      "Canna",
+      "Yike",
+      "Vladi",
+      "Caliste",
+      "Targamas",
+      "Reha",
+      "Apples",
+      "Wadi"
+    ],
+    "competition": "First Stand",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-014",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp",
+    "resultTitle": "LEC 2025 Spring 2025",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2025-05-13",
+    "players": [
+      "Canna",
+      "Yike",
+      "Vladi",
+      "Caliste",
+      "Targamas",
+      "Reha",
+      "Apples",
+      "Wadi"
+    ],
+    "competition": "LEC",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-015",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp Blue",
+    "resultTitle": "LFL 2024 Spring Playoffs",
+    "showInTrophyCabinet": true,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2024-04-05",
+    "players": [
+      "Maynter",
+      "Lyncas",
+      "Vladi",
+      "Caliste",
+      "Fleshy",
+      "TheRock",
+      "Wadi",
+      "Apples"
+    ],
+    "competition": "LFL",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-016",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp Blue",
+    "resultTitle": "LFL 2024 Summer",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2024-07-18",
+    "players": [
+      "Maynter",
+      "113",
+      "Abbedagge",
+      "Caliste",
+      "Fleshy",
+      "Wadi",
+      "Blidzy"
+    ],
+    "competition": "LFL",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-017",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp Blue",
+    "resultTitle": "Finalist - LFL 2024 Summer Playoffs",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2024-08-03",
+    "players": [
+      "Maynter",
+      "113",
+      "Abbedagge",
+      "Caliste",
+      "Fleshy",
+      "Wadi",
+      "Blidzy"
+    ],
+    "competition": "LFL",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-018",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp Blue",
+    "resultTitle": "Top 3-4 - Coupe de France 2024",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3-4",
+    "placementMin": 3,
+    "placementMax": 4,
+    "date": "2024-09-30",
+    "players": [
+      "Maynter",
+      "113",
+      "Abbedagge",
+      "Caliste",
+      "Fleshy",
+      "Wadi",
+      "Blidzy"
+    ],
+    "competition": "Coupe de France",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-019",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp Blue",
+    "resultTitle": "Top 3 - LFL 2025 Flash In Groups - Group A",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3",
+    "placementMin": 3,
+    "placementMax": 3,
+    "date": "2025-01-31",
+    "players": [
+      "Maynter",
+      "Boukada",
+      "SlowQ",
+      "3XA",
+      "Piero",
+      "TheRock",
+      "Blidzy"
+    ],
+    "competition": "LFL Flash In Groups",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-020",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp Blue",
+    "resultTitle": "LFL 2025 Flash In Playoffs",
+    "showInTrophyCabinet": true,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2025-02-27",
+    "players": [
+      "Maynter",
+      "Boukada",
+      "SlowQ",
+      "3XA",
+      "Piero",
+      "TheRock",
+      "Blidzy"
+    ],
+    "competition": "LFL Flash In Playoffs",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-021",
+    "game": "League of Legends",
+    "teamName": "Karmine Corp Blue",
+    "resultTitle": "EM 2025 Winter",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3-4",
+    "placementMin": 3,
+    "placementMax": 4,
+    "date": "2025-03-21",
+    "players": [
+      "Maynter",
+      "Isma",
+      "SlowQ",
+      "3XA",
+      "Nsurr",
+      "TheRock",
+      "Blidzy"
+    ],
+    "competition": "European Masters",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-022",
+    "game": "Valorant",
+    "teamName": "Karmine Corp Blue Stars",
+    "resultTitle": "VALORANT Challengers 2025 France: Revolution Stage 2",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2025-05-03",
+    "players": [
+      "Ease",
+      "F4ngeer",
+      "Sevire",
+      "Soren",
+      "Yohpa",
+      "Pakko"
+    ],
+    "competition": "VALORANT Challengers France",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-023",
+    "game": "Valorant",
+    "teamName": "Karmine Corp Blue Stars",
+    "resultTitle": "VALORANT Challengers 2025 France: Revolution Stage 1",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3-4",
+    "placementMin": 3,
+    "placementMax": 4,
+    "date": "2025-02-15",
+    "players": [
+      "Ease",
+      "F4ngeer",
+      "Sevire",
+      "Soren",
+      "Yohpa",
+      "Pakko"
+    ],
+    "competition": "VALORANT Challengers France",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-024",
+    "game": "Valorant",
+    "teamName": "Karmine Corp",
+    "resultTitle": "VCT 2024: EMEA Kickoff",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2024-03-01",
+    "players": [
+      "Shin",
+      "Magnum",
+      "Marteen",
+      "N4rrate",
+      "Tomaszy",
+      "Engh",
+      "Ze1sh",
+      "Fistie"
+    ],
+    "competition": "VCT: EMEA",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-025",
+    "game": "Valorant",
+    "teamName": "Karmine Corp GC",
+    "resultTitle": "Qualified - VCT 2023: Game Changers EMEA Stage 1 - Last Chance Qualifier",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1-2",
+    "placementMin": 1,
+    "placementMax": 2,
+    "date": "2023-04-09",
+    "players": [
+      "Matriix",
+      "LiriLia",
+      "Mel",
+      "Nelo",
+      "Ninou",
+      "LaAw",
+      "Emash"
+    ],
+    "competition": "VCT : Game Changers EMEA Stage 1 - Last Chance Qualifier",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-026",
+    "game": "Valorant",
+    "teamName": "Karmine Corp GC",
+    "resultTitle": "VCT 2024: Game Changers EMEA Contenders Series 1",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2024-04-07",
+    "players": [
+      "Matriix",
+      "Speedwka",
+      "Kuripuuya",
+      "Glance",
+      "Nelo",
+      "LaAw",
+      "uNKOE"
+    ],
+    "competition": "VCT: Game Changers EMEA Contenders Series 1",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-027",
+    "game": "Valorant",
+    "teamName": "Karmine Corp GC",
+    "resultTitle": "VCT 2025: Game Changers EMEA Stage 1",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2025-03-19",
+    "players": [
+      "Glance",
+      "Alkyia",
+      "Anesilia",
+      "Jiex",
+      "Safiaa",
+      "SmartSeven"
+    ],
+    "competition": "VCT : Game Changers EMEA Stage 1",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-028",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "TFT Open Championship 9: Summit Invitational",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2024-09-19",
+    "players": [
+      "Double61"
+    ],
+    "competition": "TFT Open Championship 9: Summit Invitational",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-029",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Rising Legends: Monsters Attack! - Finals",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2023-05-15",
+    "players": [
+      "Canbizz"
+    ],
+    "competition": "Rising Legends: Monsters Attack! - Finals",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-030",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Rising Legends: Monsters Attack - Golden Spatula Cup #3",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2023-04-16",
+    "players": [
+      "Canbizz"
+    ],
+    "competition": "Rising Legends: Monsters Attack - Golden Spatula Cup #3",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-031",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Hex League: Split 2",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2022-10-31",
+    "players": [
+      "CanbizZ"
+    ],
+    "competition": "Hex League: Split 2",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-032",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Fresh Cup #6",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2022-06-14",
+    "players": [
+      "Canbizz"
+    ],
+    "competition": "Fresh Cup #6",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-033",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Rising Legends: Gizmos & Gadgets - Finals",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2022-03-27",
+    "players": [
+      "Double61"
+    ],
+    "competition": "Rising Legends: Gizmos & Gadgets - Finals",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-034",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "JeudiTFT 2021 Spring Finals",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2021-06-17",
+    "players": [
+      "Double61"
+    ],
+    "competition": "JeudiTFT 2021 Spring Finals",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-035",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Toon Cup #1",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2021-03-26",
+    "players": [
+      "Canbizz"
+    ],
+    "competition": "Toon Cup #1",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-036",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Chosen",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2021-02-13",
+    "players": [
+      "Double61",
+      "Canbizz"
+    ],
+    "competition": "Chosen",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-037",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Fresh Cup #3",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2021-01-31",
+    "players": [
+      "Kotei",
+      "IamTLT"
+    ],
+    "competition": "Fresh Cup #3",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-038",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Galaxies Championship",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2020-09-04",
+    "players": [
+      "Double61"
+    ],
+    "competition": "Galaxies Championship",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-039",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Inkborn Fables Tactician's Crown",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2024-07-14",
+    "players": [
+      "Double61"
+    ],
+    "competition": "Inkborn Fables Tactician's Crown",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-040",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Rising Legends: Inkborn Fables - Golden Spatula Cup #3",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2024-06-23",
+    "players": [
+      "Wet Jungler"
+    ],
+    "competition": "Rising Legends: Inkborn Fables - Golden Spatula Cup #3",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-041",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Hex Tour: Fresh Cup",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2024-01-28",
+    "players": [
+      "Double61"
+    ],
+    "competition": "Hex Tour: Fresh Cup",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-042",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Rising Legends: Runeterra Reforged - Golden Spatula Cup #2",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2023-08-13",
+    "players": [
+      "Double61"
+    ],
+    "competition": "Rising Legends: Runeterra Reforged - Golden Spatula Cup #2",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-043",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Hex League: Split 2",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2022-10-31",
+    "players": [
+      "Double61"
+    ],
+    "competition": "Hex League: Split 2",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-044",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Coupe Kennen VIII",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2020-12-08",
+    "players": [
+      "Double61"
+    ],
+    "competition": "Coupe Kennen VIII",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-045",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Fresh Cup #2: Winter Edition",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2020-12-06",
+    "players": [
+      "Double61"
+    ],
+    "competition": "Fresh Cup #2: Winter Edition",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-046",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "TFT Monaco Invitational",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2020-10-26",
+    "players": [
+      "Double61"
+    ],
+    "competition": "TFT Monaco Invitational",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-047",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Into the Arcane: EMEA Tactician's Cup #1",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3",
+    "placementMin": 3,
+    "placementMax": 3,
+    "date": "2025-01-19",
+    "players": [
+      "Double61"
+    ],
+    "competition": "Into the Arcane: EMEA Tactician's Cup #1",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-048",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Magic n' Mayhem: EMEA Tactician's Cup #1",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3",
+    "placementMin": 3,
+    "placementMax": 3,
+    "date": "2024-08-25",
+    "players": [
+      "Double61"
+    ],
+    "competition": "Magic n' Mayhem: EMEA Tactician's Cup #1",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-049",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Rising Legends: Inkborn Fables - Finals",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3",
+    "placementMin": 3,
+    "placementMax": 3,
+    "date": "2024-07-07",
+    "players": [
+      "Double61"
+    ],
+    "competition": "Rising Legends: Inkborn Fables - Finals",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-050",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "A1 eSports Prismatic Legends: Season 2",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3",
+    "placementMin": 3,
+    "placementMax": 3,
+    "date": "2024-06-16",
+    "players": [
+      "Wet Jungler"
+    ],
+    "competition": "A1 eSports Prismatic Legends: Season 2",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-051",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Hex League: Set 8",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3",
+    "placementMin": 3,
+    "placementMax": 3,
+    "date": "2023-02-13",
+    "players": [
+      "Double61"
+    ],
+    "competition": "Hex League: Set 8",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-052",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Rising Legends: Dragonlands - Finals",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3",
+    "placementMin": 3,
+    "placementMax": 3,
+    "date": "2022-11-06",
+    "players": [
+      "Double61"
+    ],
+    "competition": "Rising Legends: Dragonlands - Finals",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-053",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Rising Legends: Dragonlands - Golden Spatula Cup #2",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3",
+    "placementMin": 3,
+    "placementMax": 3,
+    "date": "2022-08-14",
+    "players": [
+      "Double61"
+    ],
+    "competition": "Rising Legends: Dragonlands - Golden Spatula Cup #2",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-054",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Hex League: Split 1",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3",
+    "placementMin": 3,
+    "placementMax": 3,
+    "date": "2022-08-01",
+    "players": [
+      "Canbizz"
+    ],
+    "competition": "Hex League: Split 1",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-055",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Fresh Cup #4",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3",
+    "placementMin": 3,
+    "placementMax": 3,
+    "date": "2021-05-20",
+    "players": [
+      "Canbizz"
+    ],
+    "competition": "Fresh Cup #4",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-056",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "NémaCup #5",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3",
+    "placementMin": 3,
+    "placementMax": 3,
+    "date": "2021-05-09",
+    "players": [
+      "Double61"
+    ],
+    "competition": "NémaCup #5",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-057",
+    "game": "TFT",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Coupe Kennen IX",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3",
+    "placementMin": 3,
+    "placementMax": 3,
+    "date": "2021-03-20",
+    "players": [
+      "Double61"
+    ],
+    "competition": "Coupe Kennen IX",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-058",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2025 - Raleigh Major: EU Open 4",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2025-05-04",
+    "players": [
+      "Vatira",
+      "Atow",
+      "Dralii",
+      "Ferra",
+      "Jordi"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-059",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2025 - Birmingham Major",
+    "showInTrophyCabinet": true,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2025-03-30",
+    "players": [
+      "Vatira",
+      "Atow",
+      "Dralii",
+      "Ferra",
+      "Jordi"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-060",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2025 - Birmingham Major: EU Open 2",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2025-02-02",
+    "players": [
+      "Vatira",
+      "Atow",
+      "Dralii",
+      "Ferra",
+      "Jordi"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-061",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2025 - Birmingham Major: EU Open 1",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2025-01-12",
+    "players": [
+      "Vatira",
+      "Atow",
+      "Dralii",
+      "Ferra",
+      "Jordi"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-062",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Flip & Spin 2024 - Finals",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2024-10-25",
+    "players": [
+      "Vatira",
+      "Atow",
+      "Dralii",
+      "Ferra",
+      "Jordi"
+    ],
+    "competition": "Flip & Spin",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-063",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Qualified - Flip & Spin 2024 - Playoffs",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1-4",
+    "placementMin": 1,
+    "placementMax": 4,
+    "date": "2024-10-16",
+    "players": [
+      "Vatira",
+      "Atow",
+      "Dralii",
+      "Ferra",
+      "Jordi"
+    ],
+    "competition": "Flip & Spin",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-064",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Esports World Cup 2024 Community Cup: Europe",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2024-07-28",
+    "players": [
+      "Rise",
+      "Atow",
+      "Vatira",
+      "Ferra",
+      "Jordi"
+    ],
+    "competition": "Esports World Cup",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-065",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Qualified - Esports World Cup 2024 Community Cup: Europe Qualifier",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1-8",
+    "placementMin": 1,
+    "placementMax": 8,
+    "date": "2024-07-26",
+    "players": [
+      "Rise",
+      "Atow",
+      "Vatira",
+      "Ferra",
+      "Jordi"
+    ],
+    "competition": "Esports World Cup",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-066",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2024 - Major 1: EU Open Qualifier 3",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2024-03-10",
+    "players": [
+      "Rise",
+      "Atow",
+      "Vatira",
+      "Ferra",
+      "Jordi"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-067",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2024 - Major 1: EU Open Qualifier 2",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2024-02-25",
+    "players": [
+      "Rise",
+      "Atow",
+      "Vatira",
+      "Ferra",
+      "Jordi"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-068",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2024 - Major 1: EU Open Qualifier 1",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2024-02-11",
+    "players": [
+      "Rise",
+      "Atow",
+      "Vatira",
+      "Ferra",
+      "Jordi"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-069",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Flip & Spin 2023 - Finals",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2023-11-04",
+    "players": [
+      "Vatira",
+      "Noly",
+      "Rise",
+      "Ferra"
+    ],
+    "competition": "Flip & Spin",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-070",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Flip & Spin 2023 - Playoffs",
+    "showInTrophyCabinet": false,
+    "placementLabel": "1st - 4th",
+    "placementMin": 1,
+    "placementMax": 4,
+    "date": "2023-10-28",
+    "players": [
+      "Vatira",
+      "Noly",
+      "Rise",
+      "Ferra"
+    ],
+    "competition": "Flip & Spin",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-071",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2022-23 - Winter Split Major",
+    "showInTrophyCabinet": true,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2023-04-09",
+    "players": [
+      "Itachi",
+      "Vatira",
+      "ExoTiiK",
+      "Eversax"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-072",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2022-23 - Winter: EU Regional 2 - Winter Cup",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2023-02-12",
+    "players": [
+      "Itachi",
+      "Vatira",
+      "ExoTiiK",
+      "Eversax"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-073",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2022-23 - Winter: EU Regional 1 - Winter Open",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2023-01-29",
+    "players": [
+      "Itachi",
+      "Vatira",
+      "ExoTiiK",
+      "Eversax"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-074",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2022-23 - Fall: EU Regional 2 - Fall Cup",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2022-10-30",
+    "players": [
+      "Itachi",
+      "Vatira",
+      "ExoTiiK",
+      "Eversax"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-075",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "WePlay Esports Invitational featuring Rocket League - EMEA",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2021-09-19",
+    "players": [
+      "Stake",
+      "Itachi",
+      "AztraL",
+      "Arleyobi"
+    ],
+    "competition": "WePlay Esports Invitational",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-076",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Finalist - RLCS 2025 - Raleigh Major: EU Open 5",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2025-05-18",
+    "players": [
+      "Vatira",
+      "Atow",
+      "Dralii",
+      "Ferra",
+      "Jordi"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-077",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Finalist - RLCS 2025 - Birmingham Major: EU Open 3",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2025-02-23",
+    "players": [
+      "Vatira",
+      "Atow",
+      "Dralii",
+      "Ferra",
+      "Jordi"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-078",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Finalist - RLCS 2022-23 - Spring: EU Regional 2 - Spring Cup",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2023-05-28",
+    "players": [
+      "Itachi",
+      "Vatira",
+      "ExoTiiK",
+      "Eversax"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-079",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Finalist - RLCS 2022-23 - Winter: EU Regional 3 - Winter Invitational",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2023-02-26",
+    "players": [
+      "Itachi",
+      "Vatira",
+      "ExoTiiK",
+      "Eversax"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-080",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Finalist - RLCS 2022-23 - Fall: EU Regional 3 - Fall Invitational",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2022-11-13",
+    "players": [
+      "Itachi",
+      "Vatira",
+      "ExoTiiK",
+      "Eversax"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-081",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Finalist - RLCS 2022-23 - Fall: EU Regional 1 - Fall Open",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2022-10-16",
+    "players": [
+      "Itachi",
+      "Vatira",
+      "ExoTiiK",
+      "Eversax"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-082",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Top 3-4 - RLCS 2024 - World Championship",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#3-4",
+    "placementMin": 3,
+    "placementMax": 4,
+    "date": "2024-09-15",
+    "players": [
+      "Vatira",
+      "Atow",
+      "Rise",
+      "Ferra",
+      "Jordi"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-083",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "The Unofficial 2v2 Major",
+    "showInTrophyCabinet": false,
+    "placementLabel": "3rd - 4th",
+    "placementMin": 3,
+    "placementMax": 4,
+    "date": "2024-06-14",
+    "players": [
+      "Vatira",
+      "Atow"
+    ],
+    "competition": "The Unofficial 2v2 Major",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-084",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2024 - Major 2: EU Open Qualifier 6",
+    "showInTrophyCabinet": false,
+    "placementLabel": "3rd - 4th",
+    "placementMin": 3,
+    "placementMax": 4,
+    "date": "2024-06-02",
+    "players": [
+      "Vatira",
+      "Atow",
+      "Rise",
+      "Ferra",
+      "Jordi"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-085",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2024 - Major 1: Copenhagen",
+    "showInTrophyCabinet": false,
+    "placementLabel": "3rd - 4th",
+    "placementMin": 3,
+    "placementMax": 4,
+    "date": "2024-03-31",
+    "players": [
+      "Vatira",
+      "Atow",
+      "Rise",
+      "Ferra",
+      "Jordi"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-086",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2022-23 - World Championship",
+    "showInTrophyCabinet": false,
+    "placementLabel": "3rd - 4th",
+    "placementMin": 3,
+    "placementMax": 4,
+    "date": "2023-08-13",
+    "players": [
+      "Itachi",
+      "Vatira",
+      "ExoTiiK",
+      "Eversax"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-087",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2022-23 - Spring Split Major",
+    "showInTrophyCabinet": false,
+    "placementLabel": "3rd",
+    "placementMin": 3,
+    "placementMax": 3,
+    "date": "2023-07-09",
+    "players": [
+      "Itachi",
+      "Vatira",
+      "ExoTiiK",
+      "Eversax"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-088",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2021-22 - Spring: EU Regional Event 2 - Tour de Rocket League",
+    "showInTrophyCabinet": false,
+    "placementLabel": "3rd",
+    "placementMin": 3,
+    "placementMax": 3,
+    "date": "2022-05-22",
+    "players": [
+      "Itachi",
+      "AztraL",
+      "Noly",
+      "Eversax",
+      "Arleyobi"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-089",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Qualified - RLCS 2021-22 - Winter: EU Regional Event 3 - Closed Qualifier",
+    "showInTrophyCabinet": false,
+    "placementLabel": "3rd - 5th",
+    "placementMin": 3,
+    "placementMax": 5,
+    "date": "2022-02-20",
+    "players": [
+      "Stake",
+      "Itachi",
+      "AztraL",
+      "Arleyobi"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-090",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "RLCS 2021-22 - Fall: EU Regional Event 1 - European Open",
+    "showInTrophyCabinet": false,
+    "placementLabel": "3rd - 4th",
+    "placementMin": 3,
+    "placementMax": 4,
+    "date": "2021-10-24",
+    "players": [
+      "Stake",
+      "Itachi",
+      "AztraL",
+      "Arleyobi"
+    ],
+    "competition": "RLCS",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-091",
+    "game": "Rocket League",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Occitanie Esports 2021",
+    "showInTrophyCabinet": false,
+    "placementLabel": "3rd - 4th",
+    "placementMin": 3,
+    "placementMax": 4,
+    "date": "2021-10-10",
+    "players": [
+      "Stake",
+      "Itachi",
+      "AztraL",
+      "Arleyobi"
+    ],
+    "competition": "Occitanie Esport",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-092",
+    "game": "Street Fighter 6",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Finalist - Kings of the World",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#2",
+    "placementMin": 2,
+    "placementMax": 2,
+    "date": "2024-12-15",
+    "players": [
+      "Kilzyou"
+    ],
+    "competition": "Kings of the World",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-093",
+    "game": "Street Fighter 6",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Qualified - CPT 2024 World Warrior: France-Monaco #4",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2024-10-27",
+    "players": [
+      "Kilzyou"
+    ],
+    "competition": "CPT World Warrior",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-094",
+    "game": "Street Fighter 6",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Qualified - CPT 2024 World Warrior: France-Monaco #3",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#4",
+    "placementMin": 4,
+    "placementMax": 4,
+    "date": "2024-09-22",
+    "players": [
+      "Kilzyou"
+    ],
+    "competition": "CPT World Warrior",
+    "sourceUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "result-095",
+    "game": "Street Fighter 6",
+    "teamName": "Karmine Corp",
+    "resultTitle": "Qualified - CPT 2024 World Warrior: France-Monaco #2",
+    "showInTrophyCabinet": false,
+    "placementLabel": "#1",
+    "placementMin": 1,
+    "placementMax": 1,
+    "date": "2024-07-28",
+    "players": [
+      "Kilzyou"
+    ],
+    "competition": "CPT World Warrior",
+    "sourceUrl": "",
+    "notes": ""
+  }
+]
