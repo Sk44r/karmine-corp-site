@@ -206,6 +206,7 @@ function convertPlayers(rows) {
       return {
         id: `player-${String(index + 1).padStart(3, "0")}`,
         game: clean(getValue(row, ["Game"])),
+        rosterName: clean(getValue(row, ["RosterName", "Roster", "CurrentRoster"])),
         nickname: clean(getValue(row, ["Nickname", "Pseudo"])),
         firstName: clean(getValue(row, ["FirstName", "First name", "Prénom", "Prenom"])),
         lastName: clean(getValue(row, ["LastName", "Last name", "Nom"])),

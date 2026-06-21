@@ -2,6 +2,94 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import players from "../data/players.json";
 
+const PLAYER_ROLE_ORDER = [
+  "toplaner",
+  "jungler",
+  "midlaner",
+  "botlaner",
+  "support",
+  "player",
+];
+
+const STAFF_ROLE_ORDER = [
+  "head coach",
+  "coach",
+  "assistant coach",
+  "strategic coach",
+  "performance coach",
+  "data analyst",
+  "head of data",
+];
+
+function normalizeStatus(status) {
+  return String(status || "").trim().toLowerCase();
+}
+
+function normalizeRole(role) {
+  return String(role || "").trim().toLowerCase();
+}
+
+function isActive(player) {
+  return normalizeStatus(player.status) === "active";
+}
+
+function isFormer(player) {
+  return normalizeStatus(player.status) === "former";
+}
+
+function isStaff(player) {
+  const role = normalizeRole(player.role);
+
+  return (
+    STAFF_ROLE_ORDER.includes(role) ||
+    role.includes("coach") ||
+    role.includes("data") ||
+    role.includes("analyst")
+  );
+}
+
+function getPlayerRoleRank(player) {
+  const role = normalizeRole(player.role);
+  const rank = PLAYER_ROLE_ORDER.indexOf(role);
+
+  return rank === -1 ? 999 : rank;
+}
+
+function getStaffRoleRank(player) {
+  const role = normalizeRole(player.role);
+  const rank = STAFF_ROLE_ORDER.indexOf(role);
+
+  return rank === -1 ? 999 : rank;
+}
+
+function sortActivePlayers(a, b) {
+  const roleDiff = getPlayerRoleRank(a) - getPlayerRoleRank(b);
+
+  if (roleDiff !== 0) {
+    return roleDiff;
+  }
+
+  return String(a.nickname || "").localeCompare(String(b.nickname || ""));
+}
+
+function sortActiveStaff(a, b) {
+  const roleDiff = getStaffRoleRank(a) - getStaffRoleRank(b);
+
+  if (roleDiff !== 0) {
+    return roleDiff;
+  }
+
+  return String(a.nickname || "").localeCompare(String(b.nickname || ""));
+}
+
+function sortByNickname(a, b) {
+  return String(a.nickname || "").localeCompare(String(b.nickname || ""));
+}
+
+function getPlayerCardClass(player) {
+  return isFormer(player) ? "player-card former" : "player-card";
+}
+
 function formatNationalities(player) {
   if (player.countryCodes?.length > 0 && player.countries?.length > 0) {
     return player.countries
@@ -53,14 +141,25 @@ const games = Object.keys(playersByGame);
     <p class="eyebrow">Effectifs</p>
     <h1>Joueurs</h1>
     <p>
-      Liste des joueurs renseignés dans la base, regroupés par jeu.
+      Liste des joueurs et membres du staff renseignés dans la base, regroupés par jeu,
+      roster actif et historique.
     </p>
   </section>
 
   <section class="stats">
     <div>
       <strong>{players.length}</strong>
-      <span>joueurs renseignés</span>
+      <span>membres renseignés</span>
+    </div>
+
+    <div>
+      <strong>{players.filter(isActive).length}</strong>
+      <span>membres actifs</span>
+    </div>
+
+    <div>
+      <strong>{players.filter(isFormer).length}</strong>
+      <span>anciens membres</span>
     </div>
 
     <div>
@@ -77,46 +176,220 @@ const games = Object.keys(playersByGame);
     ))}
   </nav>
 
-  {games.map((game) => (
-    <section class="game-section" id={game.toLowerCase().replaceAll(" ", "-")}>
-      <h2>{game}</h2>
+  {games.map((game) => {
+    const gameMembers = playersByGame[game];
 
-      <div class="player-grid">
-        {playersByGame[game].map((player) => (
-          <article class="player-card">
-            <div class="player-topline">
-              <h3>{player.nickname}</h3>
-              <span>{player.status}</span>
-            </div>
+    const activeMembers = gameMembers.filter(isActive);
+    const formerMembers = gameMembers.filter(isFormer);
 
-            <p class="name">
-              {player.firstName} {player.lastName}
-            </p>
+    const activeMembersByRoster = activeMembers.reduce((groups, player) => {
+      const rosterName = player.rosterName || "Roster non renseigné";
 
-            <p class="details">
-              {formatNationalities(player)}
-            </p>
+      if (!groups[rosterName]) {
+        groups[rosterName] = [];
+      }
 
-            <p class="details">
-              {player.role}
-            </p>
+      groups[rosterName].push(player);
 
-            {player.birthDate && (
-              <p class="details">
-                Anniversaire : {formatBirthDate(player.birthDate)}
-              </p>
+      return groups;
+    }, {});
+
+    const rosterNames = Object.keys(activeMembersByRoster);
+
+    const formerPlayers = formerMembers
+      .filter((player) => !isStaff(player))
+      .sort(sortByNickname);
+
+    const formerStaff = formerMembers
+      .filter(isStaff)
+      .sort(sortByNickname);
+
+    return (
+      <section class="game-section" id={game.toLowerCase().replaceAll(" ", "-")}>
+        <h2>{game}</h2>
+
+        {rosterNames.map((rosterName) => {
+          const rosterMembers = activeMembersByRoster[rosterName];
+
+          const rosterPlayers = rosterMembers
+            .filter((player) => !isStaff(player))
+            .sort(sortActivePlayers);
+
+          const rosterStaff = rosterMembers
+            .filter(isStaff)
+            .sort(sortActiveStaff);
+
+          return (
+            <section class="roster-section">
+              <h3>{rosterName}</h3>
+
+              {rosterPlayers.length > 0 && (
+                <section class="status-section">
+                  <div class="section-title">
+                    <h4>Joueurs</h4>
+                    <span>{rosterPlayers.length}</span>
+                  </div>
+
+                  <div class="player-grid">
+                    {rosterPlayers.map((player) => (
+                      <article class={getPlayerCardClass(player)}>
+                        <div class="player-topline">
+                          <h5>{player.nickname}</h5>
+                          <span class="status active">{player.status}</span>
+                        </div>
+
+                        <p class="name">
+                          {player.firstName} {player.lastName}
+                        </p>
+
+                        <p class="details">{formatNationalities(player)}</p>
+                        <p class="details">{player.role}</p>
+
+                        {player.birthDate && (
+                          <p class="details">
+                            Anniversaire : {formatBirthDate(player.birthDate)}
+                          </p>
+                        )}
+
+                        {player.socialUrl && (
+                          <a href={player.socialUrl} target="_blank" rel="noreferrer">
+                            Profil / réseau
+                          </a>
+                        )}
+                      </article>
+                    ))}
+                  </div>
+                </section>
+              )}
+
+              {rosterStaff.length > 0 && (
+                <section class="status-section">
+                  <div class="section-title">
+                    <h4>Staff</h4>
+                    <span>{rosterStaff.length}</span>
+                  </div>
+
+                  <div class="player-grid">
+                    {rosterStaff.map((player) => (
+                      <article class={getPlayerCardClass(player)}>
+                        <div class="player-topline">
+                          <h5>{player.nickname}</h5>
+                          <span class="status active">{player.status}</span>
+                        </div>
+
+                        <p class="name">
+                          {player.firstName} {player.lastName}
+                        </p>
+
+                        <p class="details">{formatNationalities(player)}</p>
+                        <p class="details">{player.role}</p>
+
+                        {player.birthDate && (
+                          <p class="details">
+                            Anniversaire : {formatBirthDate(player.birthDate)}
+                          </p>
+                        )}
+
+                        {player.socialUrl && (
+                          <a href={player.socialUrl} target="_blank" rel="noreferrer">
+                            Profil / réseau
+                          </a>
+                        )}
+                      </article>
+                    ))}
+                  </div>
+                </section>
+              )}
+            </section>
+          );
+        })}
+
+        {(formerPlayers.length > 0 || formerStaff.length > 0) && (
+          <section class="former-history-section">
+            <h3>Historique</h3>
+
+            {formerPlayers.length > 0 && (
+              <section class="status-section former-section">
+                <div class="section-title">
+                  <h4>Anciens joueurs</h4>
+                  <span>{formerPlayers.length}</span>
+                </div>
+
+                <div class="player-grid">
+                  {formerPlayers.map((player) => (
+                    <article class={getPlayerCardClass(player)}>
+                      <div class="player-topline">
+                        <h5>{player.nickname}</h5>
+                        <span class="status former-status">{player.status}</span>
+                      </div>
+
+                      <p class="name">
+                        {player.firstName} {player.lastName}
+                      </p>
+
+                      <p class="details">{formatNationalities(player)}</p>
+                      <p class="details">{player.role}</p>
+
+                      {player.birthDate && (
+                        <p class="details">
+                          Anniversaire : {formatBirthDate(player.birthDate)}
+                        </p>
+                      )}
+
+                      {player.socialUrl && (
+                        <a href={player.socialUrl} target="_blank" rel="noreferrer">
+                          Profil / réseau
+                        </a>
+                      )}
+                    </article>
+                  ))}
+                </div>
+              </section>
             )}
 
-            {player.socialUrl && (
-              <a href={player.socialUrl} target="_blank" rel="noreferrer">
-                Réseau / profil
-              </a>
+            {formerStaff.length > 0 && (
+              <section class="status-section former-section">
+                <div class="section-title">
+                  <h4>Ancien staff</h4>
+                  <span>{formerStaff.length}</span>
+                </div>
+
+                <div class="player-grid">
+                  {formerStaff.map((player) => (
+                    <article class={getPlayerCardClass(player)}>
+                      <div class="player-topline">
+                        <h5>{player.nickname}</h5>
+                        <span class="status former-status">{player.status}</span>
+                      </div>
+
+                      <p class="name">
+                        {player.firstName} {player.lastName}
+                      </p>
+
+                      <p class="details">{formatNationalities(player)}</p>
+                      <p class="details">{player.role}</p>
+
+                      {player.birthDate && (
+                        <p class="details">
+                          Anniversaire : {formatBirthDate(player.birthDate)}
+                        </p>
+                      )}
+
+                      {player.socialUrl && (
+                        <a href={player.socialUrl} target="_blank" rel="noreferrer">
+                          Profil / réseau
+                        </a>
+                      )}
+                    </article>
+                  ))}
+                </div>
+              </section>
             )}
-          </article>
-        ))}
-      </div>
-    </section>
-  ))}
+          </section>
+        )}
+      </section>
+    );
+  })}
 </BaseLayout>
 
 <style>
@@ -182,18 +455,77 @@ const games = Object.keys(playersByGame);
     text-decoration: none;
   }
 
+  .game-nav a:hover {
+    background: rgba(37, 99, 235, 0.36);
+    color: white;
+  }
+
   .game-section {
-    margin-top: 48px;
+    margin-top: 56px;
   }
 
   h2 {
     color: #93c5fd;
-    font-size: 30px;
+    font-size: 34px;
+    margin-bottom: 24px;
+  }
+
+  .roster-section {
+    margin-top: 36px;
+    padding: 24px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.035);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .roster-section > h3,
+  .former-history-section > h3 {
+    margin: 0 0 24px;
+    font-size: 28px;
+    color: #e5e7eb;
+  }
+
+  .status-section {
+    margin-top: 32px;
+  }
+
+  .section-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .section-title h4 {
+    margin: 0;
+    font-size: 22px;
+  }
+
+  .section-title span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 28px;
+    height: 28px;
+    padding: 0 8px;
+    border-radius: 999px;
+    background: rgba(96, 165, 250, 0.18);
+    color: #bfdbfe;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .former-history-section {
+    margin-top: 48px;
+    padding: 24px;
+    border-radius: 20px;
+    background: rgba(148, 163, 184, 0.055);
+    border: 1px solid rgba(148, 163, 184, 0.16);
   }
 
   .player-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 16px;
   }
 
@@ -201,7 +533,14 @@ const games = Object.keys(playersByGame);
     padding: 20px;
     border-radius: 16px;
     background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(96, 165, 250, 0.22);
+  }
+
+  .player-card.former {
+    background: rgba(148, 163, 184, 0.08);
+    border-color: rgba(148, 163, 184, 0.2);
+    opacity: 0.72;
+    filter: grayscale(0.35);
   }
 
   .player-topline {
@@ -211,17 +550,26 @@ const games = Object.keys(playersByGame);
     align-items: flex-start;
   }
 
-  h3 {
+  h5 {
     margin: 0 0 8px;
-    font-size: 26px;
+    font-size: 24px;
   }
 
-  .player-topline span {
+  .status {
     padding: 5px 9px;
     border-radius: 999px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .status.active {
     background: rgba(37, 99, 235, 0.25);
     color: #bfdbfe;
-    font-size: 13px;
+  }
+
+  .former-status {
+    background: rgba(148, 163, 184, 0.2);
+    color: #cbd5e1;
   }
 
   .name {
@@ -232,7 +580,44 @@ const games = Object.keys(playersByGame);
     color: #cbd5e1;
   }
 
+  .player-card.former .name,
+  .player-card.former .details {
+    color: #94a3b8;
+  }
+
   a {
     color: #93c5fd;
+  }
+
+  @media (max-width: 1200px) {
+    .player-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 950px) {
+    .player-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 700px) {
+    h1 {
+      font-size: 40px;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+
+    .player-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 480px) {
+    .player-grid {
+      grid-template-columns: 1fr;
+    }
   }
 </style>

@@ -2,6 +2,7 @@
   {
     "id": "player-001",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "113",
     "firstName": "Doğukan",
     "lastName": "Balcı",
@@ -23,6 +24,7 @@
   {
     "id": "player-002",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Wadi",
     "firstName": "Wadi",
     "lastName": "Benarbia",
@@ -36,7 +38,7 @@
     ],
     "role": "Head Coach",
     "status": "Active",
-    "birthDate": "1992-06-21",
+    "birthDate": "1998-28-06",
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
@@ -44,6 +46,7 @@
   {
     "id": "player-003",
     "game": "League of Legends",
+    "rosterName": "Kameto Corp",
     "nickname": "Nuclearint",
     "firstName": "Ilias",
     "lastName": "Bizriken",
@@ -65,27 +68,7 @@
   {
     "id": "player-004",
     "game": "League of Legends",
-    "nickname": "Sheo",
-    "firstName": "Théo",
-    "lastName": "Borile",
-    "country": "France",
-    "countryCode": "FR",
-    "countries": [
-      "France"
-    ],
-    "countryCodes": [
-      "FR"
-    ],
-    "role": "Jungler",
-    "status": "Former",
-    "birthDate": null,
-    "imageUrl": "",
-    "socialUrl": "",
-    "notes": ""
-  },
-  {
-    "id": "player-005",
-    "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Isma",
     "firstName": "Ismaïl",
     "lastName": "Boualem",
@@ -105,8 +88,9 @@
     "notes": ""
   },
   {
-    "id": "player-006",
+    "id": "player-005",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Hantera",
     "firstName": "Jules",
     "lastName": "Bourgeois",
@@ -126,8 +110,9 @@
     "notes": ""
   },
   {
-    "id": "player-007",
+    "id": "player-006",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Abbedagge",
     "firstName": "Felix",
     "lastName": "Braun",
@@ -147,8 +132,9 @@
     "notes": ""
   },
   {
-    "id": "player-008",
+    "id": "player-007",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Targamas",
     "firstName": "Raphaël",
     "lastName": "Crabbé",
@@ -168,8 +154,9 @@
     "notes": ""
   },
   {
-    "id": "player-009",
+    "id": "player-008",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Yukino",
     "firstName": "Johnny Hoang",
     "lastName": "Dang",
@@ -189,8 +176,9 @@
     "notes": ""
   },
   {
-    "id": "player-010",
+    "id": "player-009",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Saken",
     "firstName": "Lucas",
     "lastName": "Fayard",
@@ -210,8 +198,9 @@
     "notes": ""
   },
   {
-    "id": "player-011",
+    "id": "player-010",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "3XA",
     "firstName": "Thomas",
     "lastName": "Foucou",
@@ -231,8 +220,9 @@
     "notes": ""
   },
   {
-    "id": "player-012",
+    "id": "player-011",
     "game": "League of Legends",
+    "rosterName": "Kameto Corp",
     "nickname": "Helaz",
     "firstName": "Jérémy",
     "lastName": "François",
@@ -252,8 +242,9 @@
     "notes": ""
   },
   {
-    "id": "player-013",
+    "id": "player-012",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue Stars",
     "nickname": "Nsurr",
     "firstName": "Emilien",
     "lastName": "Gergaud",
@@ -273,8 +264,9 @@
     "notes": ""
   },
   {
-    "id": "player-014",
+    "id": "player-013",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Caliste",
     "firstName": "Caliste",
     "lastName": "Henry-Hennebert",
@@ -294,8 +286,9 @@
     "notes": ""
   },
   {
-    "id": "player-015",
+    "id": "player-014",
     "game": "League of Legends",
+    "rosterName": "Kameto Corp",
     "nickname": "Jujutw0",
     "firstName": "Julien",
     "lastName": "Izzo",
@@ -315,8 +308,9 @@
     "notes": ""
   },
   {
-    "id": "player-016",
+    "id": "player-015",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "xMatty",
     "firstName": "Matúš",
     "lastName": "Jakubčík",
@@ -336,8 +330,9 @@
     "notes": ""
   },
   {
-    "id": "player-017",
+    "id": "player-016",
     "game": "League of Legends",
+    "rosterName": "Kameto Corp",
     "nickname": "Galdix",
     "firstName": "Erwan",
     "lastName": "Janin",
@@ -357,8 +352,9 @@
     "notes": ""
   },
   {
-    "id": "player-018",
+    "id": "player-017",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Apples",
     "firstName": "Žiga",
     "lastName": "Jereb",
@@ -378,8 +374,9 @@
     "notes": ""
   },
   {
-    "id": "player-019",
+    "id": "player-018",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Canna",
     "firstName": "Chang-dong",
     "lastName": "Kim",
@@ -399,8 +396,9 @@
     "notes": ""
   },
   {
-    "id": "player-020",
+    "id": "player-019",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Piero",
     "firstName": "Jung-hun",
     "lastName": "Kim",
@@ -420,8 +418,9 @@
     "notes": ""
   },
   {
-    "id": "player-021",
+    "id": "player-020",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Vladi",
     "firstName": "Vladimiros",
     "lastName": "Kourtidis",
@@ -441,8 +440,9 @@
     "notes": ""
   },
   {
-    "id": "player-022",
+    "id": "player-021",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Boukada",
     "firstName": "Mehdi",
     "lastName": "Lahlou",
@@ -462,8 +462,9 @@
     "notes": ""
   },
   {
-    "id": "player-023",
+    "id": "player-022",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Rekkles",
     "firstName": "Martin",
     "lastName": "Larsson",
@@ -483,8 +484,9 @@
     "notes": ""
   },
   {
-    "id": "player-024",
+    "id": "player-023",
     "game": "League of Legends",
+    "rosterName": "Kameto Corp",
     "nickname": "Akabane",
     "firstName": "Philippe",
     "lastName": "Le",
@@ -504,8 +506,9 @@
     "notes": ""
   },
   {
-    "id": "player-025",
+    "id": "player-024",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Adam",
     "firstName": "Adam",
     "lastName": "Maanane",
@@ -525,8 +528,9 @@
     "notes": ""
   },
   {
-    "id": "player-026",
+    "id": "player-025",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Lyncas",
     "firstName": "Linas",
     "lastName": "Nauncikas",
@@ -546,8 +550,9 @@
     "notes": ""
   },
   {
-    "id": "player-027",
+    "id": "player-026",
     "game": "League of Legends",
+    "rosterName": "",
     "nickname": "Blidzy",
     "firstName": "Ianis",
     "lastName": "Paul",
@@ -567,8 +572,9 @@
     "notes": ""
   },
   {
-    "id": "player-028",
+    "id": "player-027",
     "game": "League of Legends",
+    "rosterName": "Kameto Corp",
     "nickname": "NicoPerez",
     "firstName": "Nicolas",
     "lastName": "Perez",
@@ -588,8 +594,9 @@
     "notes": ""
   },
   {
-    "id": "player-029",
+    "id": "player-028",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Reha",
     "firstName": "Rehareha",
     "lastName": "Ramanana",
@@ -609,8 +616,9 @@
     "notes": ""
   },
   {
-    "id": "player-030",
+    "id": "player-029",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Cinkrof",
     "firstName": "Jakub",
     "lastName": "Rokicki",
@@ -630,8 +638,9 @@
     "notes": ""
   },
   {
-    "id": "player-031",
+    "id": "player-030",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "SlowQ",
     "firstName": "Ye-bit",
     "lastName": "Seo",
@@ -653,8 +662,9 @@
     "notes": ""
   },
   {
-    "id": "player-032",
+    "id": "player-031",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Cabochard",
     "firstName": "Lucas",
     "lastName": "Simon-Meslet",
@@ -674,8 +684,9 @@
     "notes": ""
   },
   {
-    "id": "player-033",
+    "id": "player-032",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Maynter",
     "firstName": "Volodymyr",
     "lastName": "Sorokin",
@@ -695,8 +706,9 @@
     "notes": ""
   },
   {
-    "id": "player-034",
+    "id": "player-033",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Fleshy",
     "firstName": "Mert",
     "lastName": "Sulayman",
@@ -716,8 +728,9 @@
     "notes": ""
   },
   {
-    "id": "player-035",
+    "id": "player-034",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Yike",
     "firstName": "Martin",
     "lastName": "Sundelin",
@@ -738,8 +751,9 @@
     "notes": ""
   },
   {
-    "id": "player-036",
+    "id": "player-035",
     "game": "League of Legends",
+    "rosterName": "Kameto Corp",
     "nickname": "Farrhell",
     "firstName": "Victor",
     "lastName": "Vimard",
@@ -759,8 +773,9 @@
     "notes": ""
   },
   {
-    "id": "player-037",
+    "id": "player-036",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "TheRock",
     "firstName": "Vasilis",
     "lastName": "Voltis",
@@ -780,8 +795,9 @@
     "notes": ""
   },
   {
-    "id": "player-038",
+    "id": "player-037",
     "game": "Rocket League",
+    "rosterName": "Karmine Corp",
     "nickname": "Itachi",
     "firstName": "Amine",
     "lastName": "Benayachi",
@@ -801,8 +817,9 @@
     "notes": ""
   },
   {
-    "id": "player-039",
+    "id": "player-038",
     "game": "Rocket League",
+    "rosterName": "Karmine Corp",
     "nickname": "ExoTiiK",
     "firstName": "Brice",
     "lastName": "Bigeard",
@@ -822,8 +839,9 @@
     "notes": ""
   },
   {
-    "id": "player-040",
+    "id": "player-039",
     "game": "Rocket League",
+    "rosterName": "Karmine Corp",
     "nickname": "Stake",
     "firstName": "Marc",
     "lastName": "Bosch Plujà",
@@ -843,8 +861,9 @@
     "notes": ""
   },
   {
-    "id": "player-041",
+    "id": "player-040",
     "game": "Rocket League",
+    "rosterName": "Karmine Corp",
     "nickname": "AztraL",
     "firstName": "Maëllo",
     "lastName": "Ernst",
@@ -864,8 +883,9 @@
     "notes": ""
   },
   {
-    "id": "player-042",
+    "id": "player-041",
     "game": "Rocket League",
+    "rosterName": "Karmine Corp",
     "nickname": "Rise",
     "firstName": "Finlay",
     "lastName": "Ferguson",
@@ -885,8 +905,9 @@
     "notes": ""
   },
   {
-    "id": "player-043",
+    "id": "player-042",
     "game": "Rocket League",
+    "rosterName": "Karmine Corp",
     "nickname": "Ferra",
     "firstName": "Victor",
     "lastName": "Francal",
@@ -906,8 +927,9 @@
     "notes": ""
   },
   {
-    "id": "player-044",
+    "id": "player-043",
     "game": "Rocket League",
+    "rosterName": "Karmine Corp",
     "nickname": "Dralii",
     "firstName": "Samy",
     "lastName": "Hajji",
@@ -927,8 +949,9 @@
     "notes": ""
   },
   {
-    "id": "player-045",
+    "id": "player-044",
     "game": "Rocket League",
+    "rosterName": "Karmine Corp",
     "nickname": "Noly",
     "firstName": "Joseph",
     "lastName": "Kidd",
@@ -948,8 +971,9 @@
     "notes": ""
   },
   {
-    "id": "player-046",
+    "id": "player-045",
     "game": "Rocket League",
+    "rosterName": "Karmine Corp",
     "nickname": "Jordi",
     "firstName": "Jordi",
     "lastName": "Rieix",
@@ -969,8 +993,9 @@
     "notes": ""
   },
   {
-    "id": "player-047",
+    "id": "player-046",
     "game": "Rocket League",
+    "rosterName": "Karmine Corp",
     "nickname": "Atow",
     "firstName": "Tristan",
     "lastName": "Soyez",
@@ -990,8 +1015,9 @@
     "notes": ""
   },
   {
-    "id": "player-048",
+    "id": "player-047",
     "game": "Rocket League",
+    "rosterName": "Karmine Corp",
     "nickname": "Vatira",
     "firstName": "Axel",
     "lastName": "Touret",
@@ -1011,8 +1037,9 @@
     "notes": ""
   },
   {
-    "id": "player-049",
+    "id": "player-048",
     "game": "Rocket League",
+    "rosterName": "Karmine Corp",
     "nickname": "Eversax",
     "firstName": "Benjamin",
     "lastName": "Wagner",
@@ -1032,8 +1059,9 @@
     "notes": ""
   },
   {
-    "id": "player-050",
+    "id": "player-049",
     "game": "Rocket League",
+    "rosterName": "Karmine Corp",
     "nickname": "Arleyobi",
     "firstName": "Francisco González",
     "lastName": "Guerrero",
@@ -1053,8 +1081,9 @@
     "notes": ""
   },
   {
-    "id": "player-051",
+    "id": "player-050",
     "game": "Street Fighter 6",
+    "rosterName": "Karmine Corp",
     "nickname": "Kilzyou",
     "firstName": "Kilyan",
     "lastName": "Faucheux",
@@ -1074,8 +1103,9 @@
     "notes": ""
   },
   {
-    "id": "player-052",
+    "id": "player-051",
     "game": "TFT",
+    "rosterName": "Karmine Corp",
     "nickname": "Canbizz",
     "firstName": "Muhammed",
     "lastName": "Canbaz",
@@ -1095,8 +1125,9 @@
     "notes": ""
   },
   {
-    "id": "player-053",
+    "id": "player-052",
     "game": "TFT",
+    "rosterName": "Karmine Corp",
     "nickname": "Kotei",
     "firstName": "Zouhair",
     "lastName": "Darji",
@@ -1109,15 +1140,16 @@
       "BE"
     ],
     "role": "Player",
-    "status": "Active",
+    "status": "Former",
     "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
-    "id": "player-054",
+    "id": "player-053",
     "game": "TFT",
+    "rosterName": "Karmine Corp",
     "nickname": "Double61",
     "firstName": "Emre",
     "lastName": "Demirtas",
@@ -1137,8 +1169,9 @@
     "notes": ""
   },
   {
-    "id": "player-055",
+    "id": "player-054",
     "game": "TFT",
+    "rosterName": "Karmine Corp GC",
     "nickname": "Wet Jungler",
     "firstName": "Tan",
     "lastName": "Nguyen",
@@ -1158,8 +1191,9 @@
     "notes": ""
   },
   {
-    "id": "player-056",
+    "id": "player-055",
     "game": "TFT",
+    "rosterName": "Karmine Corp",
     "nickname": "IamTLT",
     "firstName": "Thomas",
     "lastName": "Kheniche",
@@ -1179,8 +1213,9 @@
     "notes": ""
   },
   {
-    "id": "player-057",
+    "id": "player-056",
     "game": "Valorant",
+    "rosterName": "Karmine Corp GC",
     "nickname": "Glance",
     "firstName": "Anastasiya",
     "lastName": "Anisimova",
@@ -1200,8 +1235,9 @@
     "notes": ""
   },
   {
-    "id": "player-058",
+    "id": "player-057",
     "game": "Valorant",
+    "rosterName": "Karmine Corp GC",
     "nickname": "Kuripuuya",
     "firstName": "Ece Selin",
     "lastName": "Balıkdere",
@@ -1221,8 +1257,9 @@
     "notes": ""
   },
   {
-    "id": "player-059",
+    "id": "player-058",
     "game": "Valorant",
+    "rosterName": "Karmine Corp GC",
     "nickname": "Nelo",
     "firstName": "Mathilde",
     "lastName": "Beltoise",
@@ -1242,8 +1279,9 @@
     "notes": ""
   },
   {
-    "id": "player-060",
+    "id": "player-059",
     "game": "Valorant",
+    "rosterName": "Karmine Corp GC",
     "nickname": "LiriLia",
     "firstName": "Asma",
     "lastName": "Boughida",
@@ -1263,8 +1301,9 @@
     "notes": ""
   },
   {
-    "id": "player-061",
+    "id": "player-060",
     "game": "Valorant",
+    "rosterName": "Karmine Corp GC",
     "nickname": "uNKOE",
     "firstName": "Benjamin",
     "lastName": "Chevasson",
@@ -1284,8 +1323,9 @@
     "notes": ""
   },
   {
-    "id": "player-062",
+    "id": "player-061",
     "game": "Valorant",
+    "rosterName": "Karmine Corp",
     "nickname": "Ze1sh",
     "firstName": "Ahmed",
     "lastName": "El Sheikh",
@@ -1305,8 +1345,9 @@
     "notes": ""
   },
   {
-    "id": "player-063",
+    "id": "player-062",
     "game": "Valorant",
+    "rosterName": "Karmine Corp",
     "nickname": "Shin",
     "firstName": "Ryad",
     "lastName": "Ensaad",
@@ -1326,8 +1367,9 @@
     "notes": ""
   },
   {
-    "id": "player-064",
+    "id": "player-063",
     "game": "Valorant",
+    "rosterName": "Karmine Corp GC",
     "nickname": "Alkyia",
     "firstName": "Azra",
     "lastName": "Erin",
@@ -1347,8 +1389,9 @@
     "notes": ""
   },
   {
-    "id": "player-065",
+    "id": "player-064",
     "game": "Valorant",
+    "rosterName": "Karmine Corp GC",
     "nickname": "Mel",
     "firstName": "Mélina",
     "lastName": "Houssein",
@@ -1368,8 +1411,9 @@
     "notes": ""
   },
   {
-    "id": "player-066",
+    "id": "player-065",
     "game": "Valorant",
+    "rosterName": "Karmine Corp GC",
     "nickname": "Anesilia",
     "firstName": "Anastasia",
     "lastName": "Ivanova",
@@ -1389,8 +1433,9 @@
     "notes": ""
   },
   {
-    "id": "player-067",
+    "id": "player-066",
     "game": "Valorant",
+    "rosterName": "Karmine Corp Blue Stars",
     "nickname": "Yohpa",
     "firstName": "Baptiste",
     "lastName": "Khoury",
@@ -1410,8 +1455,9 @@
     "notes": ""
   },
   {
-    "id": "player-068",
+    "id": "player-067",
     "game": "Valorant",
+    "rosterName": "Karmine Corp GC",
     "nickname": "Safiaa",
     "firstName": "Safia",
     "lastName": "Leghzal",
@@ -1431,8 +1477,9 @@
     "notes": ""
   },
   {
-    "id": "player-069",
+    "id": "player-068",
     "game": "Valorant",
+    "rosterName": "Karmine Corp",
     "nickname": "Tomaszy",
     "firstName": "Tomás",
     "lastName": "Machado",
@@ -1452,8 +1499,9 @@
     "notes": ""
   },
   {
-    "id": "player-070",
+    "id": "player-069",
     "game": "Valorant",
+    "rosterName": "Karmine Corp GC",
     "nickname": "Ninou",
     "firstName": "Nouhara",
     "lastName": "Marcos",
@@ -1473,8 +1521,9 @@
     "notes": ""
   },
   {
-    "id": "player-071",
+    "id": "player-070",
     "game": "Valorant",
+    "rosterName": "Karmine Corp",
     "nickname": "N4rrate",
     "firstName": "Marshall",
     "lastName": "Massey",
@@ -1494,8 +1543,9 @@
     "notes": ""
   },
   {
-    "id": "player-072",
+    "id": "player-071",
     "game": "Valorant",
+    "rosterName": "Karmine Corp",
     "nickname": "Marteen",
     "firstName": "Martin",
     "lastName": "Pátek",
@@ -1515,8 +1565,9 @@
     "notes": ""
   },
   {
-    "id": "player-073",
+    "id": "player-072",
     "game": "Valorant",
+    "rosterName": "Karmine Corp",
     "nickname": "Magnum",
     "firstName": "Martin",
     "lastName": "Peňkov",
@@ -1536,8 +1587,9 @@
     "notes": ""
   },
   {
-    "id": "player-074",
+    "id": "player-073",
     "game": "Valorant",
+    "rosterName": "Karmine Corp GC",
     "nickname": "LaAw",
     "firstName": "Mathieu",
     "lastName": "Plantin",
@@ -1557,8 +1609,9 @@
     "notes": ""
   },
   {
-    "id": "player-075",
+    "id": "player-074",
     "game": "Valorant",
+    "rosterName": "Karmine Corp Blue Stars",
     "nickname": "Matriix",
     "firstName": "Lea",
     "lastName": "Ransquin",
@@ -1578,8 +1631,9 @@
     "notes": ""
   },
   {
-    "id": "player-076",
+    "id": "player-075",
     "game": "Valorant",
+    "rosterName": "Karmine Corp",
     "nickname": "Engh",
     "firstName": "Andrey",
     "lastName": "Sholokhov",
@@ -1599,8 +1653,9 @@
     "notes": ""
   },
   {
-    "id": "player-077",
+    "id": "player-076",
     "game": "Valorant",
+    "rosterName": "Karmine Corp",
     "nickname": "SmartSeven",
     "firstName": "Dzmitry",
     "lastName": "Smartselau",
@@ -1620,8 +1675,9 @@
     "notes": ""
   },
   {
-    "id": "player-078",
+    "id": "player-077",
     "game": "Valorant",
+    "rosterName": "Karmine Corp Blue Stars",
     "nickname": "F4ngeer",
     "firstName": "Roman",
     "lastName": "Smirnov",
@@ -1641,8 +1697,9 @@
     "notes": ""
   },
   {
-    "id": "player-079",
+    "id": "player-078",
     "game": "Valorant",
+    "rosterName": "Karmine Corp GC",
     "nickname": "Jiex",
     "firstName": "Şura",
     "lastName": "Yıldırım",
@@ -1662,8 +1719,9 @@
     "notes": ""
   },
   {
-    "id": "player-080",
+    "id": "player-079",
     "game": "Valorant",
+    "rosterName": "Karmine Corp",
     "nickname": "Ease",
     "firstName": "Manuel",
     "lastName": "López",
@@ -1683,9 +1741,10 @@
     "notes": ""
   },
   {
-    "id": "player-081",
+    "id": "player-080",
     "game": "Valorant",
-    "nickname": "Speedwka",
+    "rosterName": "Karmine Corp GC",
+    "nickname": "Speedowka",
     "firstName": "Weronika",
     "lastName": "Dabrowska",
     "country": "Poland",
@@ -1704,8 +1763,9 @@
     "notes": ""
   },
   {
-    "id": "player-082",
+    "id": "player-081",
     "game": "Valorant",
+    "rosterName": "Karmine Corp Blue Stars",
     "nickname": "Sevire",
     "firstName": "Ethan",
     "lastName": "Starke",
@@ -1725,8 +1785,9 @@
     "notes": ""
   },
   {
-    "id": "player-083",
+    "id": "player-082",
     "game": "Valorant",
+    "rosterName": "Karmine Corp Blue Stars",
     "nickname": "Soren",
     "firstName": "David",
     "lastName": "Soth",
@@ -1746,8 +1807,9 @@
     "notes": ""
   },
   {
-    "id": "player-084",
+    "id": "player-083",
     "game": "Valorant",
+    "rosterName": "Karmine Corp Blue Stars",
     "nickname": "Pakko",
     "firstName": "Pavle",
     "lastName": "Kostić",
@@ -1767,8 +1829,9 @@
     "notes": ""
   },
   {
-    "id": "player-085",
+    "id": "player-084",
     "game": "Valorant",
+    "rosterName": "Karmine Corp GC",
     "nickname": "Emash",
     "firstName": "Emma",
     "lastName": "Beziaud Le Pochat",
@@ -1788,8 +1851,9 @@
     "notes": ""
   },
   {
-    "id": "player-086",
+    "id": "player-085",
     "game": "Valorant",
+    "rosterName": "Karmine Corp",
     "nickname": "Fistie",
     "firstName": "Сергей",
     "lastName": "Васильев",
@@ -1809,8 +1873,9 @@
     "notes": ""
   },
   {
-    "id": "player-087",
+    "id": "player-086",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue Stars",
     "nickname": "Koala",
     "firstName": "Alexis",
     "lastName": "Gonzalez",
@@ -1830,8 +1895,9 @@
     "notes": ""
   },
   {
-    "id": "player-088",
+    "id": "player-087",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue Stars",
     "nickname": "Oleg",
     "firstName": "Oleg",
     "lastName": "Karkachev",
@@ -1851,8 +1917,9 @@
     "notes": ""
   },
   {
-    "id": "player-089",
+    "id": "player-088",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue Stars",
     "nickname": "Panda",
     "firstName": "Hamza",
     "lastName": "Siala",
@@ -1872,8 +1939,9 @@
     "notes": ""
   },
   {
-    "id": "player-090",
+    "id": "player-089",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue Stars",
     "nickname": "Alaric",
     "firstName": "Erwin",
     "lastName": "Cader",
@@ -1893,8 +1961,9 @@
     "notes": ""
   },
   {
-    "id": "player-091",
+    "id": "player-090",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Lookie",
     "firstName": "Rocco",
     "lastName": "Palfi",
@@ -1914,8 +1983,9 @@
     "notes": ""
   },
   {
-    "id": "player-092",
+    "id": "player-091",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Tao",
     "firstName": "Hongtao Alessandro",
     "lastName": "Xu",
@@ -1937,8 +2007,9 @@
     "notes": ""
   },
   {
-    "id": "player-093",
+    "id": "player-092",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue Stars",
     "nickname": "MathisV",
     "firstName": "Mathis",
     "lastName": "Vannieuwenuyse",
@@ -1958,8 +2029,9 @@
     "notes": ""
   },
   {
-    "id": "player-094",
+    "id": "player-093",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Hazel",
     "firstName": "Costin",
     "lastName": "Pestrițu",
@@ -1979,29 +2051,9 @@
     "notes": ""
   },
   {
-    "id": "player-095",
+    "id": "player-094",
     "game": "League of Legends",
-    "nickname": "Nsurr",
-    "firstName": "Emilien",
-    "lastName": "Gergaud",
-    "country": "France",
-    "countryCode": "FR",
-    "countries": [
-      "France"
-    ],
-    "countryCodes": [
-      "FR"
-    ],
-    "role": "Support",
-    "status": "Former",
-    "birthDate": null,
-    "imageUrl": "",
-    "socialUrl": "",
-    "notes": ""
-  },
-  {
-    "id": "player-096",
-    "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue Stars",
     "nickname": "Sunfry",
     "firstName": "Teddy",
     "lastName": "Falconnet",
@@ -2021,8 +2073,9 @@
     "notes": ""
   },
   {
-    "id": "player-097",
+    "id": "player-095",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue Stars",
     "nickname": "Nayas",
     "firstName": "Victor",
     "lastName": "Quevrin",
@@ -2042,8 +2095,9 @@
     "notes": ""
   },
   {
-    "id": "player-098",
+    "id": "player-096",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Kamiloo",
     "firstName": "Kamil",
     "lastName": "Haudegond",
@@ -2063,8 +2117,9 @@
     "notes": ""
   },
   {
-    "id": "player-099",
+    "id": "player-097",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Prime",
     "firstName": "Olivier",
     "lastName": "Payet",
@@ -2084,8 +2139,9 @@
     "notes": ""
   },
   {
-    "id": "player-100",
+    "id": "player-098",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Fara",
     "firstName": "Benjamin",
     "lastName": "Stoffel",
@@ -2105,8 +2161,9 @@
     "notes": ""
   },
   {
-    "id": "player-101",
+    "id": "player-099",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp Blue",
     "nickname": "Souf",
     "firstName": "Soufiane",
     "lastName": "Zahidi",
@@ -2126,8 +2183,9 @@
     "notes": ""
   },
   {
-    "id": "player-102",
+    "id": "player-100",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Busio",
     "firstName": "Alan",
     "lastName": "Cwalina",
@@ -2149,8 +2207,9 @@
     "notes": ""
   },
   {
-    "id": "player-103",
+    "id": "player-101",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Kyeahoo",
     "firstName": "Ye-hoo",
     "lastName": "Kang",
@@ -2170,8 +2229,9 @@
     "notes": ""
   },
   {
-    "id": "player-104",
+    "id": "player-102",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Reapered",
     "firstName": "Han-gyu",
     "lastName": "Bok",
@@ -2191,8 +2251,9 @@
     "notes": ""
   },
   {
-    "id": "player-105",
+    "id": "player-103",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Zeph",
     "firstName": "Quentin",
     "lastName": "Viguié",
@@ -2212,8 +2273,9 @@
     "notes": ""
   },
   {
-    "id": "player-106",
+    "id": "player-104",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Clément",
     "firstName": "Clément",
     "lastName": "Thillier",
@@ -2233,8 +2295,9 @@
     "notes": ""
   },
   {
-    "id": "player-107",
+    "id": "player-105",
     "game": "League of Legends",
+    "rosterName": "Karmine Corp",
     "nickname": "Xenesis",
     "firstName": "Benjamin",
     "lastName": "Castet",
@@ -2247,6 +2310,138 @@
       "FR"
     ],
     "role": "Head of data",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-106",
+    "game": "League of Legends",
+    "rosterName": "Karmine Corp",
+    "nickname": "Striker",
+    "firstName": "Yanis",
+    "lastName": "Kella",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Head Coach",
+    "status": "Former",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-107",
+    "game": "Valorant",
+    "rosterName": "Karmine Corp",
+    "nickname": "Avez",
+    "firstName": "Hazem",
+    "lastName": "Khaled",
+    "country": "Egypt",
+    "countryCode": "EG",
+    "countries": [
+      "Egypt"
+    ],
+    "countryCodes": [
+      "EG"
+    ],
+    "role": "Player",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-108",
+    "game": "Valorant",
+    "rosterName": "Karmine Corp",
+    "nickname": "Suygetsu",
+    "firstName": "Dmitrii",
+    "lastName": "Iliushin",
+    "country": "Russia",
+    "countryCode": "RU",
+    "countries": [
+      "Russia"
+    ],
+    "countryCodes": [
+      "RU"
+    ],
+    "role": "Player",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-109",
+    "game": "Valorant",
+    "rosterName": "Karmine Corp",
+    "nickname": "Dos9",
+    "firstName": "Dastan",
+    "lastName": "Zhumagali",
+    "country": "Kazakhstan",
+    "countryCode": "KZ",
+    "countries": [
+      "Kazakhstan"
+    ],
+    "countryCodes": [
+      "KZ"
+    ],
+    "role": "Player",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-110",
+    "game": "Valorant",
+    "rosterName": "Karmine Corp",
+    "nickname": "LêwN",
+    "firstName": "Burak",
+    "lastName": "Alkan",
+    "country": "Turkey",
+    "countryCode": "TR",
+    "countries": [
+      "Turkey"
+    ],
+    "countryCodes": [
+      "TR"
+    ],
+    "role": "Player",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-111",
+    "game": "Valorant",
+    "rosterName": "Karmine Corp",
+    "nickname": "Sheydos",
+    "firstName": "Marshall",
+    "lastName": "Massey",
+    "country": "Russia",
+    "countryCode": "RU",
+    "countries": [
+      "Russia"
+    ],
+    "countryCodes": [
+      "RU"
+    ],
+    "role": "Player",
     "status": "Active",
     "birthDate": null,
     "imageUrl": "",
