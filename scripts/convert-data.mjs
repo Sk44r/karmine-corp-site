@@ -141,6 +141,23 @@ function parsePlayers(value) {
     .filter(Boolean);
 }
 
+function parseList(value) {
+  const raw = clean(value);
+
+  if (!raw) {
+    return [];
+  }
+
+  return raw
+    .split(";")
+    .map((item) => clean(item))
+    .filter(Boolean);
+}
+
+function parseBirthDate(value) {
+  return parseDate(value);
+}
+
 async function readCsv(filePath) {
   const content = await fs.readFile(filePath, "utf8");
 
@@ -181,18 +198,26 @@ function convertResults(rows) {
 function convertPlayers(rows) {
   return rows
     .map((row, index) => {
+      const country = clean(getValue(row, ["Country", "Pays"]));
+      const countryCode = clean(
+        getValue(row, ["CountryCode", "Country code", "Code pays"])
+      ).toUpperCase();
+
       return {
         id: `player-${String(index + 1).padStart(3, "0")}`,
         game: clean(getValue(row, ["Game"])),
         nickname: clean(getValue(row, ["Nickname", "Pseudo"])),
         firstName: clean(getValue(row, ["FirstName", "First name", "Prénom", "Prenom"])),
         lastName: clean(getValue(row, ["LastName", "Last name", "Nom"])),
-        country: clean(getValue(row, ["Country", "Pays"])),
-        countryCode: clean(
-          getValue(row, ["CountryCode", "Country code", "Code pays"])
-        ).toUpperCase(),
+        country,
+        countryCode,
+        countries: parseList(country),
+        countryCodes: parseList(countryCode).map((code) => code.toUpperCase()),
         role: clean(getValue(row, ["Role", "Rôle"])),
         status: clean(getValue(row, ["Status", "Statut"])),
+        birthDate: parseBirthDate(
+          getValue(row, ["BirthDate", "Birth Date", "Date de naissance"])
+        ),
         imageUrl: clean(getValue(row, ["ImageUrl", "Image URL"])),
         socialUrl: clean(getValue(row, ["SocialUrl", "Social URL", "Twitter", "X"])),
         notes: clean(getValue(row, ["Notes"])),

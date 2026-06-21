@@ -1,14 +1,21 @@
 [
   {
     "id": "player-001",
-    "game": "",
-    "nickname": "Wylenz",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "113",
+    "firstName": "Doğukan",
+    "lastName": "Balcı",
+    "country": "Turkey",
+    "countryCode": "TR",
+    "countries": [
+      "Turkey"
+    ],
+    "countryCodes": [
+      "TR"
+    ],
+    "role": "Jungler",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
@@ -16,13 +23,20 @@
   {
     "id": "player-002",
     "game": "League of Legends",
-    "nickname": "Adam",
-    "firstName": "Adam",
-    "lastName": "Maanane",
+    "nickname": "Wadi",
+    "firstName": "Wadi",
+    "lastName": "Benarbia",
     "country": "France",
     "countryCode": "FR",
-    "role": "Toplaner",
-    "status": "Former",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Head Coach",
+    "status": "Active",
+    "birthDate": "1992-06-21",
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
@@ -30,1217 +44,2211 @@
   {
     "id": "player-003",
     "game": "League of Legends",
-    "nickname": "Akabane",
-    "firstName": "Philippe",
-    "lastName": "Le",
+    "nickname": "Nuclearint",
+    "firstName": "Ilias",
+    "lastName": "Bizriken",
     "country": "France",
     "countryCode": "FR",
-    "role": "Jungler",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Midlaner",
     "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-004",
-    "game": "",
-    "nickname": "Eyhro",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Sheo",
+    "firstName": "Théo",
+    "lastName": "Borile",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Jungler",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-005",
-    "game": "",
-    "nickname": "Nuclearint",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Isma",
+    "firstName": "Ismaïl",
+    "lastName": "Boualem",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Jungler",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-006",
-    "game": "",
-    "nickname": "Jujutw0",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Hantera",
+    "firstName": "Jules",
+    "lastName": "Bourgeois",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Support",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-007",
-    "game": "",
-    "nickname": "Helaz",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Abbedagge",
+    "firstName": "Felix",
+    "lastName": "Braun",
+    "country": "Germany",
+    "countryCode": "DE",
+    "countries": [
+      "Germany"
+    ],
+    "countryCodes": [
+      "DE"
+    ],
+    "role": "Midlaner",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-008",
-    "game": "",
-    "nickname": "Farrhell",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Targamas",
+    "firstName": "Raphaël",
+    "lastName": "Crabbé",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "countries": [
+      "Belgium"
+    ],
+    "countryCodes": [
+      "BE"
+    ],
+    "role": "Support",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-009",
-    "game": "",
-    "nickname": "Rejakar",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Yukino",
+    "firstName": "Johnny Hoang",
+    "lastName": "Dang",
+    "country": "United States",
+    "countryCode": "US",
+    "countries": [
+      "United States"
+    ],
+    "countryCodes": [
+      "US"
+    ],
+    "role": "Jungler",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-010",
-    "game": "",
-    "nickname": "Galdix",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Saken",
+    "firstName": "Lucas",
+    "lastName": "Fayard",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Midlaner",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-011",
-    "game": "",
-    "nickname": "Cabochard",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "3XA",
+    "firstName": "Thomas",
+    "lastName": "Foucou",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Botlaner",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-012",
-    "game": "",
-    "nickname": "Maynter",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Helaz",
+    "firstName": "Jérémy",
+    "lastName": "François",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Support",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-013",
-    "game": "",
-    "nickname": "Canna",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Nsurr",
+    "firstName": "Emilien",
+    "lastName": "Gergaud",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Support",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-014",
-    "game": "",
-    "nickname": "Ease",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Caliste",
+    "firstName": "Caliste",
+    "lastName": "Henry-Hennebert",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Botlaner",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-015",
-    "game": "",
-    "nickname": "Shin",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Jujutw0",
+    "firstName": "Julien",
+    "lastName": "Izzo",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Botlaner",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-016",
-    "game": "",
-    "nickname": "Matriix",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "xMatty",
+    "firstName": "Matúš",
+    "lastName": "Jakubčík",
+    "country": "Czech Republic",
+    "countryCode": "CZ",
+    "countries": [
+      "Czech Republic"
+    ],
+    "countryCodes": [
+      "CZ"
+    ],
+    "role": "Botlaner",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-017",
-    "game": "",
-    "nickname": "Glance",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Galdix",
+    "firstName": "Erwan",
+    "lastName": "Janin",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Strategic Coach",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-018",
-    "game": "",
-    "nickname": "Double61",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Apples",
+    "firstName": "Žiga",
+    "lastName": "Jereb",
+    "country": "Slovenia",
+    "countryCode": "SI",
+    "countries": [
+      "Slovenia"
+    ],
+    "countryCodes": [
+      "SI"
+    ],
+    "role": "Coach",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-019",
-    "game": "",
-    "nickname": "Canbizz",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Canna",
+    "firstName": "Chang-dong",
+    "lastName": "Kim",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "countries": [
+      "South Korea"
+    ],
+    "countryCodes": [
+      "KR"
+    ],
+    "role": "Toplaner",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-020",
-    "game": "",
-    "nickname": "Kotei",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Piero",
+    "firstName": "Jung-hun",
+    "lastName": "Kim",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "countries": [
+      "South Korea"
+    ],
+    "countryCodes": [
+      "KR"
+    ],
+    "role": "Support",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-021",
-    "game": "",
-    "nickname": "Wet Jungler",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Vladi",
+    "firstName": "Vladimiros",
+    "lastName": "Kourtidis",
+    "country": "Greece",
+    "countryCode": "GR",
+    "countries": [
+      "Greece"
+    ],
+    "countryCodes": [
+      "GR"
+    ],
+    "role": "Midlaner",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-022",
-    "game": "",
-    "nickname": "Vatira",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Boukada",
+    "firstName": "Mehdi",
+    "lastName": "Lahlou",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Jungler",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-023",
-    "game": "",
-    "nickname": "Rise",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Rekkles",
+    "firstName": "Martin",
+    "lastName": "Larsson",
+    "country": "Sweden",
+    "countryCode": "SE",
+    "countries": [
+      "Sweden"
+    ],
+    "countryCodes": [
+      "SE"
+    ],
+    "role": "Botlaner",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-024",
-    "game": "",
-    "nickname": "Itachi",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Akabane",
+    "firstName": "Philippe",
+    "lastName": "Le",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Jungler",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-025",
-    "game": "",
-    "nickname": "Stake",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Adam",
+    "firstName": "Adam",
+    "lastName": "Maanane",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Toplaner",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-026",
-    "game": "",
-    "nickname": "Kilzyou",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Lyncas",
+    "firstName": "Linas",
+    "lastName": "Nauncikas",
+    "country": "Lithuania",
+    "countryCode": "LT",
+    "countries": [
+      "Lithuania"
+    ],
+    "countryCodes": [
+      "LT"
+    ],
+    "role": "Jungler",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-027",
-    "game": "",
-    "nickname": "Cinkrof",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Blidzy",
+    "firstName": "Ianis",
+    "lastName": "Paul",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Head Coach",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-028",
-    "game": "",
-    "nickname": "113",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "NicoPerez",
+    "firstName": "Nicolas",
+    "lastName": "Perez",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Head Coach",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-029",
-    "game": "",
-    "nickname": "Sheo",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Reha",
+    "firstName": "Rehareha",
+    "lastName": "Ramanana",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Head Coach",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-030",
-    "game": "",
-    "nickname": "Yukino",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Cinkrof",
+    "firstName": "Jakub",
+    "lastName": "Rokicki",
+    "country": "Poland",
+    "countryCode": "PL",
+    "countries": [
+      "Poland"
+    ],
+    "countryCodes": [
+      "PL"
+    ],
+    "role": "Jungler",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-031",
-    "game": "",
-    "nickname": "Yike",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "SlowQ",
+    "firstName": "Ye-bit",
+    "lastName": "Seo",
+    "country": "South Korea; Sweden",
+    "countryCode": "KR; SE",
+    "countries": [
+      "South Korea",
+      "Sweden"
+    ],
+    "countryCodes": [
+      "KR",
+      "SE"
+    ],
+    "role": "Midlaner",
+    "status": "Former",
+    "birthDate": "2024-03-20",
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-032",
-    "game": "",
-    "nickname": "Lyncas",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Cabochard",
+    "firstName": "Lucas",
+    "lastName": "Simon-Meslet",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Toplaner",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-033",
-    "game": "",
-    "nickname": "Boukada",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Maynter",
+    "firstName": "Volodymyr",
+    "lastName": "Sorokin",
+    "country": "Ukraine",
+    "countryCode": "UA",
+    "countries": [
+      "Ukraine"
+    ],
+    "countryCodes": [
+      "UA"
+    ],
+    "role": "Toplaner",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-034",
-    "game": "",
-    "nickname": "Isma",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Fleshy",
+    "firstName": "Mert",
+    "lastName": "Sulayman",
+    "country": "Turkey",
+    "countryCode": "TR",
+    "countries": [
+      "Turkey"
+    ],
+    "countryCodes": [
+      "TR"
+    ],
+    "role": "Support",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-035",
-    "game": "",
-    "nickname": "F4ngeer",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Yike",
+    "firstName": "Martin",
+    "lastName": "Sundelin",
+    "country": "Sweden, Peru",
+    "countryCode": "SE; PE",
+    "countries": [
+      "Sweden, Peru"
+    ],
+    "countryCodes": [
+      "SE",
+      "PE"
+    ],
+    "role": "Jungler",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-036",
-    "game": "",
-    "nickname": "Magnum",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Farrhell",
+    "firstName": "Victor",
+    "lastName": "Vimard",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Coach",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-037",
-    "game": "",
-    "nickname": "LiriLia",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "TheRock",
+    "firstName": "Vasilis",
+    "lastName": "Voltis",
+    "country": "Greece",
+    "countryCode": "GR",
+    "countries": [
+      "Greece"
+    ],
+    "countryCodes": [
+      "GR"
+    ],
+    "role": "Head Coach",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-038",
-    "game": "",
-    "nickname": "Speedwka",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Rocket League",
+    "nickname": "Itachi",
+    "firstName": "Amine",
+    "lastName": "Benayachi",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "countries": [
+      "Morocco"
+    ],
+    "countryCodes": [
+      "MA"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-039",
-    "game": "",
-    "nickname": "Alkyia",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Rocket League",
+    "nickname": "ExoTiiK",
+    "firstName": "Brice",
+    "lastName": "Bigeard",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-040",
-    "game": "",
-    "nickname": "IamTLT",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Rocket League",
+    "nickname": "Stake",
+    "firstName": "Marc",
+    "lastName": "Bosch Plujà",
+    "country": "Spain",
+    "countryCode": "ES",
+    "countries": [
+      "Spain"
+    ],
+    "countryCodes": [
+      "ES"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-041",
-    "game": "",
-    "nickname": "Atow",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Rocket League",
+    "nickname": "AztraL",
+    "firstName": "Maëllo",
+    "lastName": "Ernst",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "countries": [
+      "Belgium"
+    ],
+    "countryCodes": [
+      "BE"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-042",
-    "game": "",
-    "nickname": "Noly",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Rocket League",
+    "nickname": "Rise",
+    "firstName": "Finlay",
+    "lastName": "Ferguson",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "countries": [
+      "United Kingdom"
+    ],
+    "countryCodes": [
+      "GB"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-043",
-    "game": "",
-    "nickname": "AztraL",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Rocket League",
+    "nickname": "Ferra",
+    "firstName": "Victor",
+    "lastName": "Francal",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Coach",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-044",
-    "game": "",
-    "nickname": "Saken",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Rocket League",
+    "nickname": "Dralii",
+    "firstName": "Samy",
+    "lastName": "Hajji",
+    "country": "Morocco",
+    "countryCode": "MA",
+    "countries": [
+      "Morocco"
+    ],
+    "countryCodes": [
+      "MA"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-045",
-    "game": "",
-    "nickname": "SlowQ",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Rocket League",
+    "nickname": "Noly",
+    "firstName": "Joseph",
+    "lastName": "Kidd",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "countries": [
+      "United Kingdom"
+    ],
+    "countryCodes": [
+      "GB"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-046",
-    "game": "",
-    "nickname": "Vladi",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Rocket League",
+    "nickname": "Jordi",
+    "firstName": "Jordi",
+    "lastName": "Rieix",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Performance Coach",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-047",
-    "game": "",
-    "nickname": "Abbedagge",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Rocket League",
+    "nickname": "Atow",
+    "firstName": "Tristan",
+    "lastName": "Soyez",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "countries": [
+      "Belgium"
+    ],
+    "countryCodes": [
+      "BE"
+    ],
+    "role": "Player",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-048",
-    "game": "",
-    "nickname": "Sevire",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Rocket League",
+    "nickname": "Vatira",
+    "firstName": "Axel",
+    "lastName": "Touret",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Player",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-049",
-    "game": "",
-    "nickname": "Marteen",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Rocket League",
+    "nickname": "Eversax",
+    "firstName": "Benjamin",
+    "lastName": "Wagner",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "countries": [
+      "Belgium"
+    ],
+    "countryCodes": [
+      "BE"
+    ],
+    "role": "Coach",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-050",
-    "game": "",
-    "nickname": "Mel",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Rocket League",
+    "nickname": "Arleyobi",
+    "firstName": "Francisco González",
+    "lastName": "Guerrero",
+    "country": "Spain",
+    "countryCode": "ES",
+    "countries": [
+      "Spain"
+    ],
+    "countryCodes": [
+      "ES"
+    ],
+    "role": "Coach",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-051",
-    "game": "",
-    "nickname": "Kuripuuya",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Street Fighter 6",
+    "nickname": "Kilzyou",
+    "firstName": "Kilyan",
+    "lastName": "Faucheux",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-052",
-    "game": "",
-    "nickname": "Anesilia",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "TFT",
+    "nickname": "Canbizz",
+    "firstName": "Muhammed",
+    "lastName": "Canbaz",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-053",
-    "game": "",
-    "nickname": "Dralii",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "TFT",
+    "nickname": "Kotei",
+    "firstName": "Zouhair",
+    "lastName": "Darji",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "countries": [
+      "Belgium"
+    ],
+    "countryCodes": [
+      "BE"
+    ],
+    "role": "Player",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-054",
-    "game": "",
-    "nickname": "ExoTiiK",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "TFT",
+    "nickname": "Double61",
+    "firstName": "Emre",
+    "lastName": "Demirtas",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-055",
-    "game": "",
-    "nickname": "xMatty",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "TFT",
+    "nickname": "Wet Jungler",
+    "firstName": "Tan",
+    "lastName": "Nguyen",
+    "country": "Germany",
+    "countryCode": "DE",
+    "countries": [
+      "Germany"
+    ],
+    "countryCodes": [
+      "DE"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-056",
-    "game": "",
-    "nickname": "Rekkles",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "TFT",
+    "nickname": "IamTLT",
+    "firstName": "Thomas",
+    "lastName": "Kheniche",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-057",
-    "game": "",
-    "nickname": "Caliste",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Glance",
+    "firstName": "Anastasiya",
+    "lastName": "Anisimova",
+    "country": "Russia",
+    "countryCode": "RU",
+    "countries": [
+      "Russia"
+    ],
+    "countryCodes": [
+      "RU"
+    ],
+    "role": "Player",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-058",
-    "game": "",
-    "nickname": "3XA",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Kuripuuya",
+    "firstName": "Ece Selin",
+    "lastName": "Balıkdere",
+    "country": "Turkey",
+    "countryCode": "TR",
+    "countries": [
+      "Turkey"
+    ],
+    "countryCodes": [
+      "TR"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-059",
-    "game": "",
-    "nickname": "Soren",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Nelo",
+    "firstName": "Mathilde",
+    "lastName": "Beltoise",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-060",
-    "game": "",
-    "nickname": "N4rrate",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "LiriLia",
+    "firstName": "Asma",
+    "lastName": "Boughida",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-061",
-    "game": "",
-    "nickname": "Nelo",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "uNKOE",
+    "firstName": "Benjamin",
+    "lastName": "Chevasson",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Coach",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-062",
-    "game": "",
-    "nickname": "Jiex",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Ze1sh",
+    "firstName": "Ahmed",
+    "lastName": "El Sheikh",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Head Coach",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-063",
-    "game": "",
-    "nickname": "Ferra",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Shin",
+    "firstName": "Ryad",
+    "lastName": "Ensaad",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-064",
-    "game": "",
-    "nickname": "Eversax",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Alkyia",
+    "firstName": "Azra",
+    "lastName": "Erin",
+    "country": "Turkey",
+    "countryCode": "TR",
+    "countries": [
+      "Turkey"
+    ],
+    "countryCodes": [
+      "TR"
+    ],
+    "role": "Player",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-065",
-    "game": "",
-    "nickname": "Arleyobi",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Mel",
+    "firstName": "Mélina",
+    "lastName": "Houssein",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-066",
-    "game": "",
-    "nickname": "Targamas",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Anesilia",
+    "firstName": "Anastasia",
+    "lastName": "Ivanova",
+    "country": "Russia",
+    "countryCode": "RU",
+    "countries": [
+      "Russia"
+    ],
+    "countryCodes": [
+      "RU"
+    ],
+    "role": "Player",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-067",
-    "game": "",
-    "nickname": "Hantera",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Yohpa",
+    "firstName": "Baptiste",
+    "lastName": "Khoury",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-068",
-    "game": "",
-    "nickname": "Piero",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Safiaa",
+    "firstName": "Safia",
+    "lastName": "Leghzal",
+    "country": "Algeria",
+    "countryCode": "DZ",
+    "countries": [
+      "Algeria"
+    ],
+    "countryCodes": [
+      "DZ"
+    ],
+    "role": "Player",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-069",
-    "game": "",
-    "nickname": "Targa",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Tomaszy",
+    "firstName": "Tomás",
+    "lastName": "Machado",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "countries": [
+      "Portugal"
+    ],
+    "countryCodes": [
+      "PT"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-070",
-    "game": "",
-    "nickname": "Fleshy",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Ninou",
+    "firstName": "Nouhara",
+    "lastName": "Marcos",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-071",
-    "game": "",
-    "nickname": "Nsurr",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "N4rrate",
+    "firstName": "Marshall",
+    "lastName": "Massey",
+    "country": "United States",
+    "countryCode": "US",
+    "countries": [
+      "United States"
+    ],
+    "countryCodes": [
+      "US"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-072",
-    "game": "",
-    "nickname": "Yohpa",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Marteen",
+    "firstName": "Martin",
+    "lastName": "Pátek",
+    "country": "Czech Republic",
+    "countryCode": "CZ",
+    "countries": [
+      "Czech Republic"
+    ],
+    "countryCodes": [
+      "CZ"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-073",
-    "game": "",
-    "nickname": "Tomaszy",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Magnum",
+    "firstName": "Martin",
+    "lastName": "Peňkov",
+    "country": "Czech Republic",
+    "countryCode": "CZ",
+    "countries": [
+      "Czech Republic"
+    ],
+    "countryCodes": [
+      "CZ"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-074",
-    "game": "",
-    "nickname": "Ninou",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "LaAw",
+    "firstName": "Mathieu",
+    "lastName": "Plantin",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Head Coach",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-075",
-    "game": "",
-    "nickname": "Safiaa",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Matriix",
+    "firstName": "Lea",
+    "lastName": "Ransquin",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "countries": [
+      "Belgium"
+    ],
+    "countryCodes": [
+      "BE"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-076",
-    "game": "",
-    "nickname": "Jordi",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Engh",
+    "firstName": "Andrey",
+    "lastName": "Sholokhov",
+    "country": "Russia",
+    "countryCode": "RU",
+    "countries": [
+      "Russia"
+    ],
+    "countryCodes": [
+      "RU"
+    ],
+    "role": "Head Coach",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-077",
-    "game": "",
-    "nickname": "Reha",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "SmartSeven",
+    "firstName": "Dzmitry",
+    "lastName": "Smartselau",
+    "country": "Belarus",
+    "countryCode": "BY",
+    "countries": [
+      "Belarus"
+    ],
+    "countryCodes": [
+      "BY"
+    ],
+    "role": "Coach",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-078",
-    "game": "",
-    "nickname": "TheRock",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "F4ngeer",
+    "firstName": "Roman",
+    "lastName": "Smirnov",
+    "country": "Russia",
+    "countryCode": "RU",
+    "countries": [
+      "Russia"
+    ],
+    "countryCodes": [
+      "RU"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-079",
-    "game": "",
-    "nickname": "Wadi",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Jiex",
+    "firstName": "Şura",
+    "lastName": "Yıldırım",
+    "country": "Turkey",
+    "countryCode": "TR",
+    "countries": [
+      "Turkey"
+    ],
+    "countryCodes": [
+      "TR"
+    ],
+    "role": "Player",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-080",
-    "game": "",
-    "nickname": "Pakko",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Ease",
+    "firstName": "Manuel",
+    "lastName": "López",
+    "country": "Spain",
+    "countryCode": "ES",
+    "countries": [
+      "Spain"
+    ],
+    "countryCodes": [
+      "ES"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-081",
-    "game": "",
-    "nickname": "Engh",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Speedwka",
+    "firstName": "Weronika",
+    "lastName": "Dabrowska",
+    "country": "Poland",
+    "countryCode": "PL",
+    "countries": [
+      "Poland"
+    ],
+    "countryCodes": [
+      "PL"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-082",
-    "game": "",
-    "nickname": "LaAw",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Sevire",
+    "firstName": "Ethan",
+    "lastName": "Starke",
+    "country": "United Kingdom",
+    "countryCode": "UK",
+    "countries": [
+      "United Kingdom"
+    ],
+    "countryCodes": [
+      "UK"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-083",
-    "game": "",
-    "nickname": "SmartSeven",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Soren",
+    "firstName": "David",
+    "lastName": "Soth",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Player",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-084",
-    "game": "",
-    "nickname": "Apples",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Pakko",
+    "firstName": "Pavle",
+    "lastName": "Kostić",
+    "country": "Serbia",
+    "countryCode": "RS",
+    "countries": [
+      "Serbia"
+    ],
+    "countryCodes": [
+      "RS"
+    ],
+    "role": "Coach",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-085",
-    "game": "",
-    "nickname": "Blidzy",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Emash",
+    "firstName": "Emma",
+    "lastName": "Beziaud Le Pochat",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Assistant Coach",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-086",
-    "game": "",
-    "nickname": "Ze1sh",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "Valorant",
+    "nickname": "Fistie",
+    "firstName": "Сергей",
+    "lastName": "Васильев",
+    "country": "Russia",
+    "countryCode": "RU",
+    "countries": [
+      "Russia"
+    ],
+    "countryCodes": [
+      "RU"
+    ],
+    "role": "Coach",
+    "status": "Former",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-087",
-    "game": "",
-    "nickname": "Emash",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Koala",
+    "firstName": "Alexis",
+    "lastName": "Gonzalez",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Toplaner",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-088",
-    "game": "",
-    "nickname": "uNKOE",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Oleg",
+    "firstName": "Oleg",
+    "lastName": "Karkachev",
+    "country": "Russia",
+    "countryCode": "RU",
+    "countries": [
+      "Russia"
+    ],
+    "countryCodes": [
+      "RU"
+    ],
+    "role": "Jungler",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""
   },
   {
     "id": "player-089",
-    "game": "",
-    "nickname": "Fistie",
-    "firstName": "",
-    "lastName": "",
-    "country": "",
-    "countryCode": "",
-    "role": "",
-    "status": "",
+    "game": "League of Legends",
+    "nickname": "Panda",
+    "firstName": "Hamza",
+    "lastName": "Siala",
+    "country": "Lebanon",
+    "countryCode": "LB",
+    "countries": [
+      "Lebanon"
+    ],
+    "countryCodes": [
+      "LB"
+    ],
+    "role": "Midlaner",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-090",
+    "game": "League of Legends",
+    "nickname": "Alaric",
+    "firstName": "Erwin",
+    "lastName": "Cader",
+    "country": "Sweden",
+    "countryCode": "SE",
+    "countries": [
+      "Sweden"
+    ],
+    "countryCodes": [
+      "SE"
+    ],
+    "role": "Support",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-091",
+    "game": "League of Legends",
+    "nickname": "Lookie",
+    "firstName": "Rocco",
+    "lastName": "Palfi",
+    "country": "Germany",
+    "countryCode": "DE",
+    "countries": [
+      "Germany"
+    ],
+    "countryCodes": [
+      "DE"
+    ],
+    "role": "Botlaner",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-092",
+    "game": "League of Legends",
+    "nickname": "Tao",
+    "firstName": "Hongtao Alessandro",
+    "lastName": "Xu",
+    "country": "China; Italy",
+    "countryCode": "CN; IT",
+    "countries": [
+      "China",
+      "Italy"
+    ],
+    "countryCodes": [
+      "CN",
+      "IT"
+    ],
+    "role": "Toplaner",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-093",
+    "game": "League of Legends",
+    "nickname": "MathisV",
+    "firstName": "Mathis",
+    "lastName": "Vannieuwenuyse",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Midlaner",
+    "status": "Former",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-094",
+    "game": "League of Legends",
+    "nickname": "Hazel",
+    "firstName": "Costin",
+    "lastName": "Pestrițu",
+    "country": "Romania",
+    "countryCode": "RO",
+    "countries": [
+      "Romania"
+    ],
+    "countryCodes": [
+      "RO"
+    ],
+    "role": "Botlaner",
+    "status": "Former",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-095",
+    "game": "League of Legends",
+    "nickname": "Nsurr",
+    "firstName": "Emilien",
+    "lastName": "Gergaud",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Support",
+    "status": "Former",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-096",
+    "game": "League of Legends",
+    "nickname": "Sunfry",
+    "firstName": "Teddy",
+    "lastName": "Falconnet",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Support",
+    "status": "Former",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-097",
+    "game": "League of Legends",
+    "nickname": "Nayas",
+    "firstName": "Victor",
+    "lastName": "Quevrin",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Assistant Coach",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-098",
+    "game": "League of Legends",
+    "nickname": "Kamiloo",
+    "firstName": "Kamil",
+    "lastName": "Haudegond",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Midlaner",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-099",
+    "game": "League of Legends",
+    "nickname": "Prime",
+    "firstName": "Olivier",
+    "lastName": "Payet",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Support",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-100",
+    "game": "League of Legends",
+    "nickname": "Fara",
+    "firstName": "Benjamin",
+    "lastName": "Stoffel",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Assistant Coach",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-101",
+    "game": "League of Legends",
+    "nickname": "Souf",
+    "firstName": "Soufiane",
+    "lastName": "Zahidi",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Performance Coach",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-102",
+    "game": "League of Legends",
+    "nickname": "Busio",
+    "firstName": "Alan",
+    "lastName": "Cwalina",
+    "country": "Poland; United States",
+    "countryCode": "PL; US",
+    "countries": [
+      "Poland",
+      "United States"
+    ],
+    "countryCodes": [
+      "PL",
+      "US"
+    ],
+    "role": "Support",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-103",
+    "game": "League of Legends",
+    "nickname": "Kyeahoo",
+    "firstName": "Ye-hoo",
+    "lastName": "Kang",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "countries": [
+      "South Korea"
+    ],
+    "countryCodes": [
+      "KR"
+    ],
+    "role": "Midlaner",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-104",
+    "game": "League of Legends",
+    "nickname": "Reapered",
+    "firstName": "Han-gyu",
+    "lastName": "Bok",
+    "country": "South Korea",
+    "countryCode": "KR",
+    "countries": [
+      "South Korea"
+    ],
+    "countryCodes": [
+      "KR"
+    ],
+    "role": "Head Coach",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-105",
+    "game": "League of Legends",
+    "nickname": "Zeph",
+    "firstName": "Quentin",
+    "lastName": "Viguié",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Assistant Coach",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-106",
+    "game": "League of Legends",
+    "nickname": "Clément",
+    "firstName": "Clément",
+    "lastName": "Thillier",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Performance Coach",
+    "status": "Active",
+    "birthDate": null,
+    "imageUrl": "",
+    "socialUrl": "",
+    "notes": ""
+  },
+  {
+    "id": "player-107",
+    "game": "League of Legends",
+    "nickname": "Xenesis",
+    "firstName": "Benjamin",
+    "lastName": "Castet",
+    "country": "France",
+    "countryCode": "FR",
+    "countries": [
+      "France"
+    ],
+    "countryCodes": [
+      "FR"
+    ],
+    "role": "Head of data",
+    "status": "Active",
+    "birthDate": null,
     "imageUrl": "",
     "socialUrl": "",
     "notes": ""

@@ -45,6 +45,11 @@ const trophyResults = results
     </div>
   </section>
 
+  <section class="birthday-box" id="birthday-box" hidden>
+    <h2>Anniversaires du jour</h2>
+    <p id="birthday-content"></p>
+  </section>
+
   <section>
     <h2>Derniers résultats</h2>
 
@@ -73,6 +78,47 @@ const trophyResults = results
     </div>
   </section>
 </BaseLayout>
+
+<script define:vars={{ players }}>
+  const birthdayBox = document.querySelector("#birthday-box");
+  const birthdayContent = document.querySelector("#birthday-content");
+
+  if (birthdayBox && birthdayContent) {
+    const today = new Date();
+
+    const todayMonth = String(today.getMonth() + 1).padStart(2, "0");
+    const todayDay = String(today.getDate()).padStart(2, "0");
+
+    const birthdayPlayers = players.filter((player) => {
+      if (!player.birthDate) {
+        return false;
+      }
+
+      const status = String(player.status || "").trim().toLowerCase();
+
+      if (status !== "active") {
+        return false;
+      }
+
+      const [, month, day] = player.birthDate.split("-");
+
+      return month === todayMonth && day === todayDay;
+    });
+
+    if (birthdayPlayers.length > 0) {
+      const names = birthdayPlayers
+        .map((player) => player.nickname)
+        .join(", ");
+
+      birthdayContent.textContent =
+        birthdayPlayers.length === 1
+          ? `Aujourd’hui, c’est l’anniversaire de ${names}.`
+          : `Aujourd’hui, c’est l’anniversaire de ${names}.`;
+
+      birthdayBox.hidden = false;
+    }
+  }
+</script>
 
 <style>
   .hero {
@@ -145,6 +191,22 @@ const trophyResults = results
   .actions a:last-child {
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.25);
+  }
+
+  .birthday-box {
+    margin: 32px 0;
+    padding: 20px;
+    border-radius: 16px;
+    background: rgba(37, 99, 235, 0.18);
+    border: 1px solid rgba(96, 165, 250, 0.3);
+  }
+
+  .birthday-box h2 {
+    margin-top: 0;
+  }
+
+  .birthday-box p {
+    color: #cbd5e1;
   }
 
   .grid {

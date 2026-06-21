@@ -2,6 +2,37 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import players from "../data/players.json";
 
+function formatNationalities(player) {
+  if (player.countryCodes?.length > 0 && player.countries?.length > 0) {
+    return player.countries
+      .map((country, index) => {
+        const code = player.countryCodes[index];
+        return code ? `${code} — ${country}` : country;
+      })
+      .join(" / ");
+  }
+
+  if (player.countryCode && player.country) {
+    return `${player.countryCode} — ${player.country}`;
+  }
+
+  return player.country || "";
+}
+
+function formatBirthDate(date) {
+  if (!date) {
+    return "";
+  }
+
+  const [year, month, day] = date.split("-");
+
+  if (!year || !month || !day) {
+    return date;
+  }
+
+  return `${day}/${month}/${year}`;
+}
+
 const playersByGame = players.reduce((groups, player) => {
   const game = player.game || "Autre";
 
@@ -63,13 +94,18 @@ const games = Object.keys(playersByGame);
             </p>
 
             <p class="details">
-              {player.countryCode ? `${player.countryCode} — ` : ""}
-              {player.country}
+              {formatNationalities(player)}
             </p>
 
             <p class="details">
               {player.role}
             </p>
+
+            {player.birthDate && (
+              <p class="details">
+                Anniversaire : {formatBirthDate(player.birthDate)}
+              </p>
+            )}
 
             {player.socialUrl && (
               <a href={player.socialUrl} target="_blank" rel="noreferrer">
